@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="{{ language }}">
+<head>
+	<title>{{ root.title }}</title>
+	<link href="/i/favicon.ico" rel="icon" type="image/x-icon"/>
+	<link rel="stylesheet" type="text/css" href="/i/styles.css?v2">
+	{% for language in languages %}
+		<link rel="alternate" hreflang="{{ language.id }}" href="{{ language.url }}" />
+	{% endfor %}
+	<link href='http://fonts.googleapis.com/css?family=Montaga|Merienda' rel='stylesheet' type='text/css'>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+	<script type="text/javascript" src="/i/fancybox/jquery.fancybox.pack.js"></script>
+	<link rel="stylesheet" href="/i/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="/i/fancybox/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
+	<script type="text/javascript" src="/i/fancybox/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+	<script type="text/javascript" src="/i/fancybox/helpers/jquery.fancybox-media.js?v=1.0.5"></script>
+	<link rel="stylesheet" href="/i/fancybox/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
+	<script type="text/javascript" src="/i/fancybox/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+</head>
+
+<body>
+	<!--
+	<a href="https://github.com/soywiz"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub"></a>
+	<a href="info.xml" target="_blank">view xml</a>
+	-->
+	<script type="text/javascript" src="/i/script.js?v2"></script>
+	
+	<div class="clearfix">
+		<div id="left_side"><div id="left_side_content">
+			<ul class="languages">
+				<li>{{ 'View in:'|trans }}</li>
+				{% for language in languages %}
+					<li><a href="{{ language.url }}"><img src="/i/flags/{{ language.id }}.png" alt="{{ language.title }}" title="{{ language.title }}" /></a></li>
+				{% endfor %}
+			</ul>
+				
+			{% for labelType in root.labelTypes %}
+				<h3>{{ labelType.title }}:</h3>
+				<ul class="labels clearfix">
+				{% for label in labelType.labels %}
+					<li class="label label-{{ label.type }}" data-tag-type="{{ label.type }}" data-tag-name="{{ label.name }}">{{ label.title }} ({{ label.usageCount }})</li>
+				{% endfor %}
+				</ul>
+			{% endfor %}
+
+			<div id="view_source">Source: <a href="/info.xml">XML</a>, <a href="/templates/index.html">Twig</a></div>
+		</div></div>
+		<div style="margin-left:300px;"><div>
+			<div id="info">
+			{{ root.header|raw }}
+			</div>
+			<span class="label filterResults" style="position:fixed;right:32px;">{{ 'Remove tag filtering'|trans }}</span>
+			{% for section in root.sections %}
+				<div class="section">
+					<h2 class="sectionTitle"><a name="section_{{ section.id }}" href="#section_{{ section.id }}">{{ section.title }}:</a></h2>
+					<div class="sectionContent">
+						{% for entry in section.entries %}
+						<div class="entry clearfix">
+							<div class="dateColumn">
+								{% for date in entry.dates %}<div>{{ date }}</div>{% endfor %}
+								{% for image in entry.logos %}
+									<div><img src="{{ image.url }}" width="{{ image.width }}" height="{{ image.height }}" alt="{{ image.alt }}" /></div>
+								{% endfor %}
+								{% if entry.title %}<h3>{{ entry.title }}</h3>{% endif %}
+								{% for level in entry.levels %}
+									<div>({{ level.title }})</div>
+								{% endfor %}
+							</div>
+							<div class="contentColumn">
+								<div>
+									{% for image in entry.images %}
+										<img src="{{ image.url }}" width="{{ image.width }}" height="{{ image.height }}" alt="{{ image.alt }}" />
+									{% endfor %}
+									{{ entry.summary|raw }}
+									{% if entry.imageSet%}
+									<div class="image_set">
+										<ul class="clearfix">
+										{% for image in entry.imageSet %}
+											<li><a href="{{ image.url }}" class="fancybox fancybox-thumb" data-fancybox-group="{{ entry.imageSetName }}" rel="fancybox_{{ entry.imageSetName }}" title="{{ image.alt }}" target="_blank"><img src="{{ image.iconUrl }}" width="{{ image.iconWidth }}" height="{{ image.iconHeight }}" alt="{{ image.alt }}" /></a></li>
+										{% endfor %}
+										</ul>
+									</div>
+									{% endif %}
+									{% if entry.videos %}
+										<ul class="videos">
+										{% for video in entry.videos %}
+											<a href="{{ video.url }}" target="_blank"><img alt="Thumbnail" src="{{ video.thumb }}" width="185" /></a>
+										{% endfor %}
+										</ul>
+									{% endif %}
+								</div>
+								<div class="clearfix">
+									<ul class="labels">
+										{% for label in entry.labels %}
+											<li class="label label-{{ label.type }}" data-tag-type="{{ label.type }}" data-tag-name="{{ label.name }}">{{ label.title }}{# ({{ label.usageCount }}) #}</li>
+										{% endfor %}
+									</ul>
+								</div>
+								<div class="links">
+								<ul class="clearfix">{% for link in entry.links %}<li><a href="{{ link.url }}" target="_blank" class="external_link">{{ link.title }}</a></li>{% endfor %}</ul>
+								</div>
+							</div>
+						</div>
+						{% endfor %}
+					</div>
+				</div>
+			{% endfor %}
+		</div></div>
+	</div>
+
+</body>
+</html>

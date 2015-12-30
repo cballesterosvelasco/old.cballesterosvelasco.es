@@ -1,0 +1,1277 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+  <html xmlns="http://www.w3.org/1999/xhtml">
+		<head>
+			<!-- template designed by Marco Von Ballmoos -->
+			<title>Docs For Class SimpleDOM</title>
+			<link rel="stylesheet" href="../media/stylesheet.css" />
+			<meta http-equiv='Content-Type' content='text/html; charset=iso-8859-1'/>
+		</head>
+		<body>
+			<div class="page-body">			
+<h2 class="class-name">Class SimpleDOM</h2>
+
+<a name="sec-description"></a>
+<div class="info-box">
+	<div class="info-box-title">Description</div>
+	<div class="nav-bar">
+					<span class="disabled">Description</span> |
+															<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+						
+					</div>
+	<div class="info-box-body">
+        		<!-- ========== Info from phpDoc block ========= -->
+		<p class="notes">
+			Located in <a class="field" href="_SimpleDOM.php.html">/SimpleDOM.php</a> (line <span class="field">69</span>)
+		</p>
+		
+				
+		<pre>SimpleXMLElement
+   |
+   --SimpleDOM</pre>
+	
+			</div>
+</div>
+
+
+
+
+	<a name="sec-method-summary"></a>
+	<div class="info-box">
+		<div class="info-box-title">Method Summary</span></div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+												<span class="disabled">Methods</span> (<a href="#sec-methods">details</a>)
+		</div>
+		<div class="info-box-body">			
+			<div class="method-summary">
+																																																																																																																																																																				<div class="method-definition">
+					static 						<span class="method-result"><a href="../SimpleDOM/SimpleDOM.html">SimpleDOM</a></span>
+										<a href="#loadHTML" title="details" class="method-name">loadHTML</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$source</span>, [<span class="var-type">mixed</span>&nbsp;<span class="var-name">&$errors</span> = <span class="var-default">null</span>])
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result"><a href="../SimpleDOM/SimpleDOM.html">SimpleDOM</a></span>
+										<a href="#loadHTMLFile" title="details" class="method-name">loadHTMLFile</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$filename</span>, [<span class="var-type">mixed</span>&nbsp;<span class="var-name">&$errors</span> = <span class="var-default">null</span>])
+									</div>
+																																																																																<div class="method-definition">
+					static 						<span class="method-result">void</span>
+										<a href="#sort" title="details" class="method-name">sort</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">&$nodes</span>)
+									</div>
+																																
+												<div class="method-definition">
+											<span class="method-result"><a href="../SimpleDOM/SimpleDOM.html">SimpleDOM</a></span>
+										<a href="#addClass" title="details" class="method-name">addClass</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$class</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">DOMElement</span>
+										<a href="#asDOM" title="details" class="method-name">asDOM</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">mixed</span>
+										<a href="#asPrettyXML" title="details" class="method-name">asPrettyXML</a>
+											([<span class="var-type">string</span>&nbsp;<span class="var-name">$filepath</span> = <span class="var-default">null</span>])
+									</div>
+																<div class="method-definition">
+											<span class="method-result"><a href="../SimpleDOM/SimpleDOM.html">SimpleDOM</a></span>
+										<a href="#cloneChildrenFrom" title="details" class="method-name">cloneChildrenFrom</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$src</span>, [<span class="var-type">bool</span>&nbsp;<span class="var-name">$deep</span> = <span class="var-default">true</span>])
+									</div>
+																<div class="method-definition">
+											<span class="method-result"><a href="../SimpleDOM/SimpleDOM.html">SimpleDOM</a></span>
+										<a href="#copyAttributesFrom" title="details" class="method-name">copyAttributesFrom</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$src</span>, [<span class="var-type">bool</span>&nbsp;<span class="var-name">$overwrite</span> = <span class="var-default">true</span>])
+									</div>
+																<div class="method-definition">
+											<span class="method-result">integer</span>
+										<a href="#deleteNodes" title="details" class="method-name">deleteNodes</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$xpath</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#deleteSelf" title="details" class="method-name">deleteSelf</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">mixed</span>
+										<a href="#firstOf" title="details" class="method-name">firstOf</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$xpath</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">array</span>
+										<a href="#getElementsByClassName" title="details" class="method-name">getElementsByClassName</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$class</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">bool</span>
+										<a href="#hasClass" title="details" class="method-name">hasClass</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$class</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">string</span>
+										<a href="#innerHTML" title="details" class="method-name">innerHTML</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">string</span>
+										<a href="#innerXML" title="details" class="method-name">innerXML</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result"><a href="../SimpleDOM/SimpleDOM.html">SimpleDOM</a></span>
+										<a href="#insertAfterSelf" title="details" class="method-name">insertAfterSelf</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$new</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result"><a href="../SimpleDOM/SimpleDOM.html">SimpleDOM</a></span>
+										<a href="#insertBeforeSelf" title="details" class="method-name">insertBeforeSelf</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$new</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result"><a href="../SimpleDOM/SimpleDOM.html">SimpleDOM</a></span>
+										<a href="#insertCDATA" title="details" class="method-name">insertCDATA</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$content</span>, [<span class="var-type">string</span>&nbsp;<span class="var-name">$mode</span> = <span class="var-default">'append'</span>])
+									</div>
+																<div class="method-definition">
+											<span class="method-result"><a href="../SimpleDOM/SimpleDOM.html">SimpleDOM</a></span>
+										<a href="#insertComment" title="details" class="method-name">insertComment</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$content</span>, [<span class="var-type">string</span>&nbsp;<span class="var-name">$mode</span> = <span class="var-default">'append'</span>])
+									</div>
+																<div class="method-definition">
+											<span class="method-result">bool</span>
+										<a href="#insertPI" title="details" class="method-name">insertPI</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$target</span>, [<span class="var-type">string|array</span>&nbsp;<span class="var-name">$data</span> = <span class="var-default">null</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$mode</span> = <span class="var-default">'before'</span>])
+									</div>
+																<div class="method-definition">
+											<span class="method-result"><a href="../SimpleDOM/SimpleDOM.html">SimpleDOM</a></span>
+										<a href="#insertText" title="details" class="method-name">insertText</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$content</span>, [<span class="var-type">string</span>&nbsp;<span class="var-name">$mode</span> = <span class="var-default">'append'</span>])
+									</div>
+																<div class="method-definition">
+											<span class="method-result"><a href="../SimpleDOM/SimpleDOM.html">SimpleDOM</a></span>
+										<a href="#insertXML" title="details" class="method-name">insertXML</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$xml</span>, [<span class="var-type">string</span>&nbsp;<span class="var-name">$mode</span> = <span class="var-default">'append'</span>])
+									</div>
+																																<div class="method-definition">
+											<span class="method-result"><a href="../SimpleDOM/SimpleDOM.html">SimpleDOM</a></span>
+										<a href="#moveTo" title="details" class="method-name">moveTo</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$dst</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">string</span>
+										<a href="#outerXML" title="details" class="method-name">outerXML</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result"><a href="../SimpleDOM/SimpleDOM.html">SimpleDOM</a></span>
+										<a href="#removeClass" title="details" class="method-name">removeClass</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$class</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">array</span>
+										<a href="#removeNodes" title="details" class="method-name">removeNodes</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$xpath</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result"><a href="../SimpleDOM/SimpleDOM.html">SimpleDOM</a></span>
+										<a href="#removeSelf" title="details" class="method-name">removeSelf</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">array</span>
+										<a href="#replaceNodes" title="details" class="method-name">replaceNodes</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$xpath</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$new</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result"><a href="../SimpleDOM/SimpleDOM.html">SimpleDOM</a></span>
+										<a href="#replaceSelf" title="details" class="method-name">replaceSelf</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$new</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result"><a href="../SimpleDOM/SimpleDOM.html">SimpleDOM</a></span>
+										<a href="#setAttributes" title="details" class="method-name">setAttributes</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$attr</span>, [<span class="var-type">string</span>&nbsp;<span class="var-name">$ns</span> = <span class="var-default">null</span>])
+									</div>
+																								<div class="method-definition">
+											<span class="method-result"><a href="../SimpleDOM/SimpleDOM.html">SimpleDOM</a></span>
+										<a href="#sortChildren" title="details" class="method-name">sortChildren</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#sortedXPath" title="details" class="method-name">sortedXPath</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$xpath</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">string</span>
+										<a href="#XSLT" title="details" class="method-name">XSLT</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$filepath</span>, [<span class="var-type">bool</span>&nbsp;<span class="var-name">$use_xslcache</span> = <span class="var-default">true</span>])
+									</div>
+								</div>
+		</div>
+	</div>		
+
+	
+	<a name="sec-methods"></a>
+	<div class="info-box">
+		<div class="info-box-title">Methods</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+																<a href="#sec-method-summary">Methods</a> (<span class="disabled">details</span>)
+						
+		</div>
+		<div class="info-box-body">
+			<A NAME='method_detail'></A>
+<a name="methodloadHTML" id="loadHTML"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method loadHTML</span> (line <span class="line-number">83</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Create a SimpleDOM object from a HTML string</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result"><a href="../SimpleDOM/SimpleDOM.html">SimpleDOM</a></span>
+		<span class="method-name">
+			loadHTML
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$source</span>, [<span class="var-type">mixed</span>&nbsp;<span class="var-name">&$errors</span> = <span class="var-default">null</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$source</span><span class="var-description">: HTML source</span>			</li>
+					<li>
+				<span class="var-type">mixed</span>
+				<span class="var-name">&$errors</span><span class="var-description">: Passed by reference. Will be replaced by an array of                                     LibXMLError objects if applicable</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodloadHTMLFile" id="loadHTMLFile"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method loadHTMLFile</span> (line <span class="line-number">96</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Create a SimpleDOM object from a HTML file</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result"><a href="../SimpleDOM/SimpleDOM.html">SimpleDOM</a></span>
+		<span class="method-name">
+			loadHTMLFile
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$filename</span>, [<span class="var-type">mixed</span>&nbsp;<span class="var-name">&$errors</span> = <span class="var-default">null</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$filename</span><span class="var-description">: Path/URL to HTML file</span>			</li>
+					<li>
+				<span class="var-type">mixed</span>
+				<span class="var-name">&$errors</span><span class="var-description">: Passed by reference. Will be replaced by an array of                                     LibXMLError objects if applicable</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodsort" id="sort"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method sort</span> (line <span class="line-number">935</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Sort an array of nodes</p>
+<p class="description"><p>Note that nodes are sorted in place, nothing is returned</p></p>
+	<ul class="tags">
+				<li><span class="field">see:</span> <a href="../SimpleDOM/SimpleDOM.html#methodsortedXPath">SimpleDOM::sortedXPath()</a></li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">void</span>
+		<span class="method-name">
+			sort
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">&$nodes</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">array</span>
+				<span class="var-name">&$nodes</span><span class="var-description">: Array of SimpleXMLElement</span>			</li>
+				</ul>
+		
+			
+	</div>
+
+<a name="methodaddClass" id="addClass"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">addClass</span> (line <span class="line-number">735</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Add given class to current node</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> Current node</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result"><a href="../SimpleDOM/SimpleDOM.html">SimpleDOM</a></span>
+		<span class="method-name">
+			addClass
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$class</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$class</span><span class="var-description">: Class name</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodasDOM" id="asDOM"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">asDOM</span> (line <span class="line-number">778</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Return the current element as a DOMElement</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">DOMElement</span>
+		<span class="method-name">
+			asDOM
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodasPrettyXML" id="asPrettyXML"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">asPrettyXML</span> (line <span class="line-number">794</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Return the current node slightly prettified</p>
+<p class="description"><p>Elements will be indented, empty elements will be minified. The result isn't mean to be  perfect, I'm sure there are better prettifiers out there.</p></p>
+	<ul class="tags">
+				<li><span class="field">return:</span> If $filepath is set, will return TRUE if the file was                                 succesfully written or FALSE otherwise. If $filepath isn't set,                                 it returns the result as a string</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">mixed</span>
+		<span class="method-name">
+			asPrettyXML
+		</span>
+					([<span class="var-type">string</span>&nbsp;<span class="var-name">$filepath</span> = <span class="var-default">null</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$filepath</span><span class="var-description">: If set, save the result to this file</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodcloneChildrenFrom" id="cloneChildrenFrom"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">cloneChildrenFrom</span> (line <span class="line-number">466</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Clone all children from a node and add them to current node</p>
+<p class="description"><p>This method takes a snapshot of the children nodes then append them in order to avoid infinite  recursion if the destination node is a descendant of or the source node itself</p></p>
+	<ul class="tags">
+				<li><span class="field">return:</span> Current node</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result"><a href="../SimpleDOM/SimpleDOM.html">SimpleDOM</a></span>
+		<span class="method-name">
+			cloneChildrenFrom
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$src</span>, [<span class="var-type">bool</span>&nbsp;<span class="var-name">$deep</span> = <span class="var-default">true</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">SimpleXMLElement</span>
+				<span class="var-name">$src</span><span class="var-description">: Source node</span>			</li>
+					<li>
+				<span class="var-type">bool</span>
+				<span class="var-name">$deep</span><span class="var-description">: If TRUE, clone descendant nodes as well</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodcopyAttributesFrom" id="copyAttributesFrom"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">copyAttributesFrom</span> (line <span class="line-number">440</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Copy all attributes from a node to current node</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> Current node</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result"><a href="../SimpleDOM/SimpleDOM.html">SimpleDOM</a></span>
+		<span class="method-name">
+			copyAttributesFrom
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$src</span>, [<span class="var-type">bool</span>&nbsp;<span class="var-name">$overwrite</span> = <span class="var-default">true</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">SimpleXMLElement</span>
+				<span class="var-name">$src</span><span class="var-description">: Source node</span>			</li>
+					<li>
+				<span class="var-type">bool</span>
+				<span class="var-name">$overwrite</span><span class="var-description">: If TRUE, overwrite existing attributes.                                             Otherwise, ignore duplicate attributes</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methoddeleteNodes" id="deleteNodes"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">deleteNodes</span> (line <span class="line-number">348</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Delete all elements matching a XPath expression</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> Number of nodes removed</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">integer</span>
+		<span class="method-name">
+			deleteNodes
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$xpath</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$xpath</span><span class="var-description">: XPath expression</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methoddeleteSelf" id="deleteSelf"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">deleteSelf</span> (line <span class="line-number">287</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Delete this node from document</p>
+<p class="description"><p>This is a convenience method. The same result can be achieved with  <div class="src-code"><ol><li><div class="src-line">&nbsp;<span class="src-var">$node</span><span class="src-sym">-&gt;</span><span class="src-id">parentNode</span><span class="src-sym">(</span><span class="src-sym">)</span><span class="src-sym">-&gt;</span><span class="src-id">removeChild</span><span class="src-sym">(</span><span class="src-var">$node</span><span class="src-sym">)</span><span class="src-sym">;</span></div></li>
+</ol></div></p></p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			deleteSelf
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodfirstOf" id="firstOf"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">firstOf</span> (line <span class="line-number">501</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Return the first node of the result of an XPath expression</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> SimpleDOM object if any node was returned, NULL otherwise</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">mixed</span>
+		<span class="method-name">
+			firstOf
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$xpath</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$xpath</span><span class="var-description">: XPath expression</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodgetElementsByClassName" id="getElementsByClassName"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">getElementsByClassName</span> (line <span class="line-number">706</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Return all elements with the given class name</p>
+<p class="description"><p>Should work like DOM0's method</p></p>
+	<ul class="tags">
+				<li><span class="field">return:</span> Array of SimpleDOM nodes</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">array</span>
+		<span class="method-name">
+			getElementsByClassName
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$class</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$class</span><span class="var-description">: Class name</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodhasClass" id="hasClass"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">hasClass</span> (line <span class="line-number">724</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Test whether current node has given class</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">bool</span>
+		<span class="method-name">
+			hasClass
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$class</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$class</span><span class="var-description">: Class name</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodinnerHTML" id="innerHTML"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">innerHTML</span> (line <span class="line-number">658</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Return the content of current node as a string</p>
+<p class="description"><p>Roughly emulates the innerHTML property found in browsers, although it is not meant to  perfectly match any specific implementation.</p></p>
+	<ul class="tags">
+				<li><span class="field">return:</span> Content of current node</li>
+				<li><span class="field">todo:</span> Write a test for HTML entities that can't be represented in the document's encoding</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">string</span>
+		<span class="method-name">
+			innerHTML
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodinnerXML" id="innerXML"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">innerXML</span> (line <span class="line-number">677</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Return the XML content of current node as a string</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> Content of current node</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">string</span>
+		<span class="method-name">
+			innerXML
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodinsertAfterSelf" id="insertAfterSelf"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">insertAfterSelf</span> (line <span class="line-number">269</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Add a new sibling after this node</p>
+<p class="description"><p>This is a convenience method. The same result can be achieved with  <div class="src-code"><ol><li><div class="src-line">&nbsp;<span class="src-var">$node</span><span class="src-sym">-&gt;</span><span class="src-id">parentNode</span><span class="src-sym">(</span><span class="src-sym">)</span><span class="src-sym">-&gt;</span><span class="src-id">insertBefore</span><span class="src-sym">(</span><span class="src-var">$new</span><span class="src-sym">,&nbsp;</span><span class="src-var">$node</span><span class="src-sym">-&gt;</span><span class="src-id">nextSibling</span><span class="src-sym">(</span><span class="src-sym">))</span><span class="src-sym">;</span></div></li>
+</ol></div></p></p>
+	<ul class="tags">
+				<li><span class="field">return:</span> The inserted node</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result"><a href="../SimpleDOM/SimpleDOM.html">SimpleDOM</a></span>
+		<span class="method-name">
+			insertAfterSelf
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$new</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">SimpleXMLElement</span>
+				<span class="var-name">$new</span><span class="var-description">: New node</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodinsertBeforeSelf" id="insertBeforeSelf"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">insertBeforeSelf</span> (line <span class="line-number">250</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Add a new sibling before this node</p>
+<p class="description"><p>This is a convenience method. The same result can be achieved with  <div class="src-code"><ol><li><div class="src-line">&nbsp;<span class="src-var">$node</span><span class="src-sym">-&gt;</span><span class="src-id">parentNode</span><span class="src-sym">(</span><span class="src-sym">)</span><span class="src-sym">-&gt;</span><span class="src-id">insertBefore</span><span class="src-sym">(</span><span class="src-var">$new</span><span class="src-sym">,&nbsp;</span><span class="src-var">$node</span><span class="src-sym">)</span><span class="src-sym">;</span></div></li>
+</ol></div></p></p>
+	<ul class="tags">
+				<li><span class="field">return:</span> The inserted node</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result"><a href="../SimpleDOM/SimpleDOM.html">SimpleDOM</a></span>
+		<span class="method-name">
+			insertBeforeSelf
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$new</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">SimpleXMLElement</span>
+				<span class="var-name">$new</span><span class="var-description">: New node</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodinsertCDATA" id="insertCDATA"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">insertCDATA</span> (line <span class="line-number">520</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Insert a CDATA section</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> Current node</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result"><a href="../SimpleDOM/SimpleDOM.html">SimpleDOM</a></span>
+		<span class="method-name">
+			insertCDATA
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$content</span>, [<span class="var-type">string</span>&nbsp;<span class="var-name">$mode</span> = <span class="var-default">'append'</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$content</span><span class="var-description">: CDATA content</span>			</li>
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$mode</span><span class="var-description">: Where to add this node: 'append' to current node,                                     'before' current node or 'after' current node</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodinsertComment" id="insertComment"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">insertComment</span> (line <span class="line-number">534</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Insert a comment node</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> Current node</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result"><a href="../SimpleDOM/SimpleDOM.html">SimpleDOM</a></span>
+		<span class="method-name">
+			insertComment
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$content</span>, [<span class="var-type">string</span>&nbsp;<span class="var-name">$mode</span> = <span class="var-default">'append'</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$content</span><span class="var-description">: Comment content</span>			</li>
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$mode</span><span class="var-description">: Where to add this node: 'append' to current node,                                     'before' current node or 'after' current node</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodinsertPI" id="insertPI"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">insertPI</span> (line <span class="line-number">594</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Insert a Processing Instruction</p>
+<p class="description"><p>The content of the PI can be passed either as string or as an associative array.</p></p>
+	<ul class="tags">
+				<li><span class="field">return:</span> TRUE on success, FALSE on failure</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">bool</span>
+		<span class="method-name">
+			insertPI
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$target</span>, [<span class="var-type">string|array</span>&nbsp;<span class="var-name">$data</span> = <span class="var-default">null</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$mode</span> = <span class="var-default">'before'</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$target</span><span class="var-description">: Target of the processing instruction</span>			</li>
+					<li>
+				<span class="var-type">string|array</span>
+				<span class="var-name">$data</span><span class="var-description">: Content of the processing instruction</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$mode</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodinsertText" id="insertText"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">insertText</span> (line <span class="line-number">548</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Insert a text node</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> Current node</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result"><a href="../SimpleDOM/SimpleDOM.html">SimpleDOM</a></span>
+		<span class="method-name">
+			insertText
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$content</span>, [<span class="var-type">string</span>&nbsp;<span class="var-name">$mode</span> = <span class="var-default">'append'</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$content</span><span class="var-description">: CDATA content</span>			</li>
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$mode</span><span class="var-description">: Where to add this node: 'append' to current node,                                     'before' current node or 'after' current node</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodinsertXML" id="insertXML"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">insertXML</span> (line <span class="line-number">563</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Insert raw XML data</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> Current node</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result"><a href="../SimpleDOM/SimpleDOM.html">SimpleDOM</a></span>
+		<span class="method-name">
+			insertXML
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$xml</span>, [<span class="var-type">string</span>&nbsp;<span class="var-name">$mode</span> = <span class="var-default">'append'</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$xml</span><span class="var-description">: XML to insert</span>			</li>
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$mode</span><span class="var-description">: Where to add this tag: 'append' to current node,                                 'before' current node or 'after' current node</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodmoveTo" id="moveTo"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">moveTo</span> (line <span class="line-number">490</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Move current node to a new parent</p>
+<p class="description"><p>ATTENTION! using references to the old node will screw up the original document</p></p>
+	<ul class="tags">
+				<li><span class="field">return:</span> Current node</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result"><a href="../SimpleDOM/SimpleDOM.html">SimpleDOM</a></span>
+		<span class="method-name">
+			moveTo
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$dst</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">SimpleXMLElement</span>
+				<span class="var-name">$dst</span><span class="var-description">: Target parent</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodouterXML" id="outerXML"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">outerXML</span> (line <span class="line-number">692</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Return the XML representing this node and its child nodes</p>
+<p class="description"><p>NOTE: unlike asXML() it doesn't return the XML prolog</p></p>
+	<ul class="tags">
+				<li><span class="field">return:</span> Content of current node</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">string</span>
+		<span class="method-name">
+			outerXML
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodremoveClass" id="removeClass"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">removeClass</span> (line <span class="line-number">759</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Remove given class from current node</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> Current node</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result"><a href="../SimpleDOM/SimpleDOM.html">SimpleDOM</a></span>
+		<span class="method-name">
+			removeClass
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$class</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$class</span><span class="var-description">: Class name</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodremoveNodes" id="removeNodes"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">removeNodes</span> (line <span class="line-number">381</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Remove all elements matching a XPath expression</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> Array of removed nodes on success or FALSE on failure</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">array</span>
+		<span class="method-name">
+			removeNodes
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$xpath</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$xpath</span><span class="var-description">: XPath expression</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodremoveSelf" id="removeSelf"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">removeSelf</span> (line <span class="line-number">309</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Remove this node from document</p>
+<p class="description"><p>This is a convenience method. The same result can be achieved with  <div class="src-code"><ol><li><div class="src-line">&nbsp;<span class="src-var">$node</span><span class="src-sym">-&gt;</span><span class="src-id">parentNode</span><span class="src-sym">(</span><span class="src-sym">)</span><span class="src-sym">-&gt;</span><span class="src-id">removeChild</span><span class="src-sym">(</span><span class="src-var">$node</span><span class="src-sym">)</span><span class="src-sym">;</span></div></li>
+</ol></div></p></p>
+	<ul class="tags">
+				<li><span class="field">return:</span> The removed node</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result"><a href="../SimpleDOM/SimpleDOM.html">SimpleDOM</a></span>
+		<span class="method-name">
+			removeSelf
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodreplaceNodes" id="replaceNodes"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">replaceNodes</span> (line <span class="line-number">416</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Remove all elements matching a XPath expression</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> Array of replaced nodes on success or FALSE on failure</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">array</span>
+		<span class="method-name">
+			replaceNodes
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$xpath</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$new</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$xpath</span><span class="var-description">: XPath expression</span>			</li>
+					<li>
+				<span class="var-type">SimpleXMLElement</span>
+				<span class="var-name">$new</span><span class="var-description">: Replacement node</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodreplaceSelf" id="replaceSelf"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">replaceSelf</span> (line <span class="line-number">333</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Replace this node</p>
+<p class="description"><p>This is a convenience method. The same result can be achieved with  <div class="src-code"><ol><li><div class="src-line">&nbsp;<span class="src-var">$node</span><span class="src-sym">-&gt;</span><span class="src-id">parentNode</span><span class="src-sym">(</span><span class="src-sym">)</span><span class="src-sym">-&gt;</span><span class="src-id">replaceChild</span><span class="src-sym">(</span><span class="src-var">$new</span><span class="src-sym">,&nbsp;</span><span class="src-var">$node</span><span class="src-sym">)</span><span class="src-sym">;</span></div></li>
+</ol></div></p></p>
+	<ul class="tags">
+				<li><span class="field">return:</span> Replaced node on success</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result"><a href="../SimpleDOM/SimpleDOM.html">SimpleDOM</a></span>
+		<span class="method-name">
+			replaceSelf
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$new</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">SimpleXMLElement</span>
+				<span class="var-name">$new</span><span class="var-description">: New node</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodsetAttributes" id="setAttributes"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">setAttributes</span> (line <span class="line-number">638</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Set several attributes at once</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> Current node</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result"><a href="../SimpleDOM/SimpleDOM.html">SimpleDOM</a></span>
+		<span class="method-name">
+			setAttributes
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$attr</span>, [<span class="var-type">string</span>&nbsp;<span class="var-name">$ns</span> = <span class="var-default">null</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">array</span>
+				<span class="var-name">$attr</span><span class="var-description">: Attributes as name =&gt; value pairs</span>			</li>
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$ns</span><span class="var-description">: Namespace for the attributes</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodsortChildren" id="sortChildren"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">sortChildren</span> (line <span class="line-number">907</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Sort this node's children</p>
+<p class="description"><p>ATTENTION: text nodes are not supported. If current node has text nodes, they may be lost in  the process</p></p>
+	<ul class="tags">
+				<li><span class="field">return:</span> This node</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result"><a href="../SimpleDOM/SimpleDOM.html">SimpleDOM</a></span>
+		<span class="method-name">
+			sortChildren
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodsortedXPath" id="sortedXPath"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">sortedXPath</span> (line <span class="line-number">888</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Run an XPath query and sort the result</p>
+<p class="description"><p>This method accepts any number of arguments in a way similar to <a href="http://docs.php.net/manual/en/function.array-multisort.php">array_multisort()</a></p><p><div class="src-code"><ol><li><div class="src-line">&nbsp;<span class="src-comm">//&nbsp;Retrieve&nbsp;all&nbsp;&lt;x/&gt;&nbsp;nodes,&nbsp;sorted&nbsp;by&nbsp;@foo&nbsp;ascending,&nbsp;@bar&nbsp;descending</span></div></li>
+<li><div class="src-line">&nbsp;<span class="src-var">$root</span><span class="src-sym">-&gt;</span><a href="../SimpleDOM/SimpleDOM.html#methodsortedXPath">sortedXPath</a><span class="src-sym">(</span><span class="src-str">'//x'</span><span class="src-sym">,&nbsp;</span><span class="src-str">'@foo'</span><span class="src-sym">,&nbsp;</span><span class="src-str">'@bar'</span><span class="src-sym">,&nbsp;</span><span class="src-id">SORT_DESC</span><span class="src-sym">)</span><span class="src-sym">;</span></div></li>
+<li><div class="src-line">&nbsp;</div></li>
+<li><div class="src-line">&nbsp;<span class="src-comm">//&nbsp;Same,&nbsp;but&nbsp;sort&nbsp;@foo&nbsp;numerically&nbsp;and&nbsp;@bar&nbsp;as&nbsp;strings</span></div></li>
+<li><div class="src-line">&nbsp;<span class="src-var">$root</span><span class="src-sym">-&gt;</span><a href="../SimpleDOM/SimpleDOM.html#methodsortedXPath">sortedXPath</a><span class="src-sym">(</span><span class="src-str">'//x'</span><span class="src-sym">,&nbsp;</span><span class="src-str">'@foo'</span><span class="src-sym">,&nbsp;</span><span class="src-id">SORT_NUMERIC</span><span class="src-sym">,&nbsp;</span><span class="src-str">'@bar'</span><span class="src-sym">,&nbsp;</span><span class="src-id">SORT_STRING</span><span class="src-sym">,&nbsp;</span><span class="src-id">SORT_DESC</span><span class="src-sym">)</span><span class="src-sym">;</span></div></li>
+</ol></div></p></p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			sortedXPath
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$xpath</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$xpath</span><span class="var-description">: XPath expression</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodXSLT" id="XSLT"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">XSLT</span> (line <span class="line-number">852</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Transform current node and return the result</p>
+<p class="description"><p>Will take advantage of <a href="http://pecl.php.net/package/xslcache">PECL's xslcache</a>  if available</p></p>
+	<ul class="tags">
+				<li><span class="field">return:</span> Result</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">string</span>
+		<span class="method-name">
+			XSLT
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$filepath</span>, [<span class="var-type">bool</span>&nbsp;<span class="var-name">$use_xslcache</span> = <span class="var-default">true</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$filepath</span><span class="var-description">: Path to stylesheet</span>			</li>
+					<li>
+				<span class="var-type">bool</span>
+				<span class="var-name">$use_xslcache</span><span class="var-description">: If TRUE, use the XSL Cache extension if available</span>			</li>
+				</ul>
+		
+			
+	</div>
+							<h4>Inherited Methods</h4>
+				<a name='inherited_methods'><!-- --></a>	
+									<!-- =========== Summary =========== -->
+					<p>Inherited From <span class="classname">SimpleXMLElement (Internal Class)</span></p>
+					<blockquote>
+													<span class="method-name">constructor __construct (  )</span><br>
+													<span class="method-name">addAttribute (  )</span><br>
+													<span class="method-name">addChild (  )</span><br>
+													<span class="method-name">asXML (  )</span><br>
+													<span class="method-name">attributes (  )</span><br>
+													<span class="method-name">children (  )</span><br>
+													<span class="method-name">count (  )</span><br>
+													<span class="method-name">getDocNamespaces (  )</span><br>
+													<span class="method-name">getName (  )</span><br>
+													<span class="method-name">getNamespaces (  )</span><br>
+													<span class="method-name">registerXPathNamespace (  )</span><br>
+													<span class="method-name">saveXML (  )</span><br>
+													<span class="method-name">xpath (  )</span><br>
+													<span class="method-name">__toString (  )</span><br>
+											</blockquote>
+										
+		</div>
+	</div>
+
+
+	<p class="notes" id="credit">
+		Documentation generated on Thu, 01 Apr 2010 08:34:34 +0200 by <a href="http://www.phpdoc.org" target="_blank">phpDocumentor 1.4.3</a>
+	</p>
+	</div></body>
+</html>

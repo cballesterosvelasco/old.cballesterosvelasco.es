@@ -1,0 +1,1270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<info>
+	<title>Carlos Ballesteros Velasco - Portfolio</title>
+	<header>
+		<summary lang="es">
+			<h1><a name="section_home" href="#section_home">Carlos Ballesteros Velasco</a></h1>
+			<div class="clearfix">
+				<img src="i/face.jpg" class="photo" />
+				<div style="margin-left: 236px;">
+					<p>Soy un programador nacido en Valencia (España) de {{ age }} años de edad.</p>
+					<p>
+						He vivido la mayor parte de mi vida en Valencia, estuve un año en Barcelona
+						y unos meses en Granada. Actualmente vivo en Valencia.
+					</p>
+					<p>
+						Desde pequeño me han apasionado la programación y los videojuegos, y aunque
+						me especialicé en páginas web (y llevo trabajando con ellas desde los 14 años)
+						también tengo bastante experiencia en otros ámbitos.
+					</p>
+					<p>
+						Visita mi blog profesional: <a href="http://blog.cballesterosvelasco.es/" class="smallicon blogger" target="_blank">blog.cballesterosvelasco.es</a>
+					</p>
+					<!--
+					<p>
+						Si tienes alguna propuesta laboral interesante sobre cualquiera de los campos en los que tengo experiencia:
+					</p>
+					-->
+					<p>
+						Contacta conmigo:
+						<a href="mailto:cballesterosvelasco@gmail.com" class="smallicon gmail">cballesterosvelasco@gmail.com</a>,
+						<a href="http://es.linkedin.com/in/cballesterosvelasco" class="smallicon linkedin" target="_blank">Linkedin</a>,
+						<a href="http://www.youtube.com/user/cballesterosvelasco" class="smallicon youtube" target="_blank">Youtube</a>,
+						<a href="http://twitter.com/cballesterosvel" class="smallicon twitter" target="_blank">Twitter</a>,
+						<a href="https://www.facebook.com/cballesteros777" class="smallicon facebook" target="_blank">Facebook</a>,
+						<a href="https://plus.google.com/100263353369850005475/about" class="smallicon gplus" target="_blank">Google+</a>,
+						<a href="https://github.com/soywiz/" class="smallicon github" target="_blank">Github</a>
+					</p>
+				</div>
+			</div>
+		</summary>
+		<summary lang="en">
+			<h1><a name="section_home" href="#section_home">Carlos Ballesteros Velasco</a></h1>
+			<div class="clearfix">
+				<img src="i/face.jpg" class="photo" />
+				<div style="margin-left: 236px;">
+					<p>I'm a programmer from Valencia (Spain) of {{ age }} years old.</p>
+					<p>
+						I have lived most of my life in Valencia, but I lived a year in Barcelona
+						and a few months in Granada. Nowadays I'm living in Valencia.
+					</p>
+					<p>
+						Since I was a child I was very interested in programming and videogames, and
+						though I ended specializing in web pages (and I were working on them since
+						I was 14 years old) I also have a lot of experience in other fields.
+					</p>
+					<p>
+						Visit professional blog: <a href="http://blog.cballesterosvelasco.es/" class="smallicon blogger" target="_blank">blog.cballesterosvelasco.es</a>
+					</p>
+					<!--
+					<p>
+						If you have an interesting job offer related to any of the fields I have experience with:
+					</p>
+					-->
+					<p>
+						Contact with me:
+						<a href="mailto:cballesterosvelasco@gmail.com" class="smallicon gmail">cballesterosvelasco@gmail.com</a>,
+						<a href="http://es.linkedin.com/in/cballesterosvelasco" class="smallicon linkedin" target="_blank">Linkedin</a>,
+						<a href="http://www.youtube.com/user/cballesterosvelasco" class="smallicon youtube" target="_blank">Youtube</a>,
+						<a href="http://twitter.com/cballesterosvel" class="smallicon twitter" target="_blank">Twitter</a>,
+						<a href="https://www.facebook.com/cballesteros777" class="smallicon facebook" target="_blank">Facebook</a>,
+						<a href="https://plus.google.com/100263353369850005475/about" class="smallicon gplus" target="_blank">Google+</a>,
+						<a href="https://github.com/soywiz/" class="smallicon github" target="_blank">Github</a>
+					</p>
+				</div>
+			</div>
+		</summary>
+	</header>
+	<render>
+		<type id="work" />
+		<type id="certification" />
+		<type id="olympiad" />
+		<type id="lectures" />
+		<type id="project" />
+		<type id="demo" />
+		<type id="language" />
+		<type id="opensource" />
+		<type id="academic" />
+		<type id="programming-languages" />
+		<type id="databases" />
+		<type id="office" />
+		<type id="fields" />
+	</render>
+	<types>
+		<type id="work">
+			<summary lang="es">Experiencia Laboral</summary>
+			<summary lang="en">Job Experience</summary>
+		</type>
+		<type id="certification">
+			<summary lang="es">Certificaciones, títulos</summary>
+			<summary lang="en">Certifications</summary>
+		</type>
+		<type id="olympiad">
+			<summary lang="es">Logros, concursos y olimpiadas</summary>
+			<summary lang="en">Achievements, contests and olympiads</summary>
+		</type>
+		<type id="lectures">
+			<summary lang="es">Charlas y ponencias</summary>
+			<summary lang="en">Talks and Lectures</summary>
+		</type>
+		<type id="project">
+			<summary lang="es">Proyectos opensource</summary>
+			<summary lang="en">Opensource projects</summary>
+		</type>
+		<type id="demo">
+			<summary lang="es">Demos</summary>
+			<summary lang="en">Demos</summary>
+		</type>
+		<type id="language">
+			<summary lang="es">Idiomas</summary>
+			<summary lang="en">Languages</summary>
+		</type>
+		<type id="opensource">
+			<summary lang="es">Código abierto</summary>
+			<summary lang="en">Opensource</summary>
+		</type>
+		<type id="academic">
+			<summary lang="es">Formación Académica</summary>
+			<summary lang="en">Academic</summary>
+		</type>
+		<type id="programming-languages">
+			<summary lang="es">Lenguajes de programación</summary>
+			<summary lang="en">Programming Languages</summary>
+		</type>
+		<type id="databases">
+			<summary lang="es">Bases de datos</summary>
+			<summary lang="en">Databases</summary>
+		</type>
+		<type id="office">
+			<summary lang="es">Ofimática</summary>
+			<summary lang="en">Office</summary>
+		</type>
+		<type id="fields">
+			<summary lang="es">Algunos campos tratados</summary>
+			<summary lang="en">Some fields I have worked on</summary>
+		</type>
+	</types>
+	<labels>
+		<category id="programming-language">
+			<summary lang="es">Lenguajes de programación</summary>
+			<summary lang="en">Programming Languages</summary>
+			
+			<label id="squirrel"><summary lang="en">Squirrel</summary></label>
+			<label id="glsl"><summary lang="en">Opengl Shader Language</summary></label>
+			<label id="div"><summary lang="en">DivGameStudio</summary></label>
+			<label id="dart"><summary lang="en">Dart</summary></label>
+			<label id="assembly"><summary lang="en">Assembly</summary><summary lang="es">Ensamblador</summary></label>
+			<label id="python"><summary lang="en">Python</summary></label>
+			<label id="as3"><summary lang="en">ActionScript3</summary></label>
+			<label id="php"><summary lang="en">PHP</summary></label>
+			<label id="c#"><summary lang="en">C#</summary></label>
+			<label id="d"><summary lang="en">D</summary></label>
+			<label id="java"><summary lang="en">Java</summary></label>
+			<label id="html"><summary lang="en">Html</summary></label>
+			<label id="css"><summary lang="en">CSS</summary></label>
+			<label id="xml"><summary lang="en">XML</summary></label>
+			<label id="javascript"><summary lang="en">JavaScript</summary></label>
+			<label id="typescript"><summary lang="en">TypeScript</summary></label>
+			<label id="c"><summary lang="en">C/C++</summary></label>
+			<label id="scala"><summary lang="en">Scala</summary></label>
+			<label id="haxe"><summary lang="en">HaXe</summary></label>
+		</category>
+		
+		<category id="database">
+			<summary lang="es">Bases de datos</summary>
+			<summary lang="en">Databases</summary>
+			
+			<label id="sphinx"><summary lang="en">Sphinx</summary></label>
+			<label id="mysql"><summary lang="en">MySQL</summary></label>
+			<label id="sqlite"><summary lang="en">SqLite</summary></label>
+			<label id="mongodb"><summary lang="en">MongoDB</summary></label>
+			<label id="redis"><summary lang="en">Redis</summary></label>
+		</category>
+		
+		<category id="version_control">
+			<summary lang="es">Control de Versiones</summary>
+			<summary lang="en">Version Control</summary>
+			
+			<label id="cvs"><summary lang="en">CVS</summary></label>
+			<label id="svn"><summary lang="en">SVN</summary></label>
+			<label id="git"><summary lang="en">GIT</summary></label>
+		</category>
+
+		<category id="tools">
+			<summary lang="es">Herramientas</summary>
+			<summary lang="en">Tools</summary>
+
+			<label id="ant"><summary lang="en">ANT</summary></label>
+			<label id="gradle"><summary lang="en">Gradle</summary></label>
+		</category>
+
+		<category id="methodology">
+			<summary lang="es">Metodologías</summary>
+			<summary lang="en">Methodologies</summary>
+
+			<label id="tdd"><summary lang="en">TDD</summary></label>
+			<label id="kanban"><summary lang="en">Kanban</summary></label>
+			<label id="pomodoro"><summary lang="en">Pomodoro</summary></label>
+		</category>
+
+		<category id="frameworks">
+			<summary lang="es">Frameworks</summary>
+			<summary lang="en">Frameworks</summary>
+
+			<label id="node.js"><summary lang="en">Node.JS</summary></label>
+			<label id="express.js"><summary lang="en">Express.JS</summary></label>
+			<label id="xna"><summary lang="en">XNA</summary></label>
+			<label id="opengl"><summary lang="en">OpenGL</summary></label>
+			<label id="starling"><summary lang="en">Starling</summary></label>
+			<label id="async"><summary lang="en">Asynchronous</summary><summary lang="es">Asíncrono</summary></label>
+		</category>
+
+		<category id="language">
+			<summary lang="es">Idiomas</summary>
+			<summary lang="en">Languages</summary>
+
+			<label id="spanish"><summary lang="en">Spanish</summary><summary lang="es">Español</summary></label>
+			<label id="valenciano"><summary lang="en">Valenciano</summary><summary lang="es">Valenciano</summary></label>
+			<label id="english"><summary lang="en">English</summary><summary lang="es">Inglés</summary></label>
+			<label id="japanese"><summary lang="en">Japanese</summary><summary lang="es">Japonés</summary></label>
+		</category>
+
+		<category id="programs">
+			<summary lang="es">Programas</summary>
+			<summary lang="en">Programs</summary>
+
+			<label id="flash"><summary lang="es">Flash</summary></label>
+			<label id="photoshop"><summary lang="es">Photoshop</summary></label>
+			<label id="freehand"><summary lang="es">Freehand</summary></label>
+			<label id="illustrator"><summary lang="es">Illustrator</summary></label>
+			<label id="graphviz"><summary lang="es">Graphviz</summary></label>
+		</category>
+
+		<category id="field">
+			<summary lang="es">Campos</summary>
+			<summary lang="en">Fields</summary>
+
+			<label id="linux"><summary lang="en">Linux</summary><summary lang="es">Linux</summary></label>
+			<label id="translation"><summary lang="en">Translations</summary><summary lang="es">Traducciones</summary></label>
+			<label id="romhacking"><summary lang="en">Romhacking</summary></label>
+			<label id="games"><summary lang="en">Games</summary><summary lang="es">Juegos</summary></label>
+			<label id="web"><summary lang="en">Web</summary></label>
+			<label id="compilers"><summary lang="en">Compilers</summary><summary lang="es">Compiladores</summary></label>
+			<label id="dynarec"><summary lang="en">Dynamic Recompilation</summary><summary lang="es">Recompilación dinámica</summary></label>
+			<label id="emulation"><summary lang="en">Emulation</summary><summary lang="es">Emulación</summary></label>
+			<label id="opensource"><summary lang="en">OpenSource</summary></label>
+			<label id="algorithmics"><summary lang="en">Algorithmics</summary><summary lang="es">Algoritmia</summary></label>
+			<label id="math"><summary lang="en">Maths</summary><summary lang="es">Matemáticas</summary></label>
+			<label id="mobile"><summary lang="en">Mobile</summary><summary lang="es">Móviles</summary></label>
+			<label id="imaging"><summary lang="en">Image Processing</summary><summary lang="es">Procesado de imágenes</summary></label>
+			<label id="audio"><summary lang="en">Audio Processing</summary><summary lang="es">Procesado de audio</summary></label>
+			<label id="video"><summary lang="en">Video Processing</summary><summary lang="es">Procesado de video</summary></label>
+			<label id="muxing"><summary lang="en">Muxing</summary><summary lang="es">Muxing</summary></label>
+			<label id="containers"><summary lang="en">Containers</summary><summary lang="es">Contenedores</summary></label>
+			<label id="compression"><summary lang="en">Compression Algorithms</summary><summary lang="es">Algoritmos de compresión</summary></label>
+			<label id="sockets"><summary lang="en">Sockets</summary><summary lang="es">Sockets</summary></label>
+			<label id="binary"><summary lang="en">Binary Files</summary><summary lang="es">Archivos Binarios</summary></label>
+			<label id="drawing"><summary lang="en">Drawing</summary><summary lang="es">Dibujo</summary></label>
+		<label id="ast"><summary lang="en">AST</summary><summary lang="es">AST</summary></label>
+		</category>
+	</labels>
+	<entries>
+		<category type="work">
+			<entry date="september/2013 - *" labels="git,svn,tdd,web,as3,java,javascript,typescript,flash,starling,ant,gradle,kanban,pomodoro">
+				<title>mundijuegos.com</title>
+				<summary lang="es">Technical Lead en akamon.com / mundijuegos.com.</summary>
+				<summary lang="en">Technical Lead at akamon.com / mundijuegos.com.</summary>
+				<logo>akamon.png</logo>
+				<link>http://mundijuegos.com/</link>
+			</entry>
+			<entry date="2013 - september/2013" labels="git,svn,tdd,web,as3,java">
+				<title>mundijuegos.com</title>
+				<summary lang="es">Programador SDK Senior en akamon.com / mundijuegos.com.</summary>
+				<summary lang="en">Senior SDK programmer at akamon.com / mundijuegos.com.</summary>
+				<logo>akamon.png</logo>
+				<link>http://mundijuegos.com/</link>
+			</entry>
+			<entry date="2011/10 - 2013" labels="as3,php,c#,java,html,css,xml,javascript,typescript,c,haxe,mysql,mongodb,redis,node.js,express.js,svn,git,opensource,flash,photoshop,linux,tdd,games,web,pomodoro">
+				<summary lang="es">Programador autónomo.</summary>
+				<summary lang="en">Freelancer programmer.</summary>
+				<link>http://www.freelancer.com/u/soywiz.html</link>
+				<link>http://kawagames.com/</link>
+				<link>http://tradcloud.com/</link>
+			</entry>
+			<entry date="2012 - *" labels="html,javascript,css,typescript,node.js,mongodb,git,translation,express.js,photoshop,linux,tdd,web">
+				<title>tradcloud.com</title>
+				<summary lang="es">Fundador y desarrollador de tradcloud.com.</summary>
+				<summary lang="en">Founder and developer of tradcloud.com.</summary>
+				<logo>tradcloud.png</logo>
+				<link>https://tradcloud.com/</link>
+			</entry>
+			<entry date="2012" labels="html,javascript,css,php,mongodb,git,tdd,photoshop,linux,web">
+				<title>leyrespuestas.es</title>
+				<summary lang="es">Desarrollo inicial de leyrespuestas.es.</summary>
+				<summary lang="en">Initial developement of leyrespuestas.es.</summary>
+				<logo>leyrespuestas.png</logo>
+				<link>http://leyrespuestas.es/</link>
+			</entry>
+			<entry date="2009 - *" labels="html,javascript,css,php,mongodb,git,games,tdd,web,xna,haxe,photoshop,linux,opengl,glsl">
+				<title>Kawagames.com</title>
+				<summary lang="es">Co-fundador, programador, maquetador y administrador de sistemas en kawagames.com.</summary>
+				<summary lang="en">Co-founder, programmer, web designer and system administrator at kawagames.com.</summary>
+				<logo>kawagames.png</logo>
+				<link>http://kawagames.com/</link>
+			</entry>
+			<entry date="2010/10 - 2011-12" labels="as3,php,c#,java,html,css,xml,javascript,mysql,svn,opensource,tdd,games,web,flash,linux">
+				<summary lang="es">
+					<div>Trabajado como programador en The Netwizzy Company para Our.com.</div>
+					<div>Programación en actionscript3 para juegos de facebook.</div>
+					<div>Integración con facebook desde html, javascript y as3.</div>
+					<div>Creado sistema de encriptación y compresión incremental de protocolo para smartfoxserver usando java.</div>
+					<div>Creado deployer en C#.</div>
+					<div>Creado servidor de rankings masivos en tiempo real.</div>
+				</summary>
+				<summary lang="en">
+					<div>Worked as programmer at The Netwizzy Company for Our.com.</div>
+					<div>Programmed facebooks games in actionscript3.</div>
+					<div>Facebook integration with html, javascript and as3.</div>
+					<div>Created encryption system, and an incremental compression protocol for smartfoxserver using java.</div>
+					<div>Created a C# deployer.</div>
+					<div>Created a realtime massive ranking server.</div>
+				</summary>
+				<logo>our_com.png</logo>
+				<link>https://apps.facebook.com/our_com</link>
+				<link>http://our.com/</link>
+				<link>http://www.netwizzy.es/</link>
+				<link>https://github.com/soywiz/smrr-server</link>
+			</entry>
+			<entry date="2009 - 2010" labels="php,xml,c#,d,mysql,sphinx,svn,tdd,web,linux">
+				<summary lang="es">Trabajado como web developer en softonic.com.</summary>
+				<summary lang="en">Worked as web developer at softonic.com.</summary>
+				<logo>softonic_com.png</logo>
+				<link>http://softonic.com/</link>
+			</entry>
+			<entry date="2005/Summer, 2006/Summer, 2007/Summer, 2008-07" labels="php,html,css,javascript,photoshop,linux,xml,svn,mysql,web">
+				<summary lang="es">Trabajando en XARXANET, S.L. Trabajando como programador web para archivospc.</summary>
+				<summary lang="en">Worked at XARXANET, S.L. Worked as programmer for archivospc.com.</summary>
+				<link>http://archivospc.com/</link>
+			</entry>
+			<entry date="2000 - 2008" labels="php,html,css,javascript,c#,xml,svn,cvs,mysql,flash,photoshop,linux,web">
+				<summary lang="es">Trabajado como Freelance para empresas y particulares.</summary>
+				<summary lang="en">Worked as Freelance for companies and individuals.</summary>
+			</entry>
+		</category>
+		
+		<category type="olympiad">
+			<entry date="2006" labels="algorithmics,c">
+				<image>gold-medal.gif</image>
+				<image_set>oie</image_set>
+				<summary lang="es">Medalla de oro en la olimpiada informática española (OIE).</summary>
+				<summary lang="en">Gold medal in "olimpiada informática española" (OIE).</summary>
+				<logo>oie.png</logo>
+				<link>http://www.olimpiada-informatica.org/</link>
+				<link>http://es.wikipedia.org/wiki/Olimpiada_Inform%C3%A1tica_Espa%C3%B1ola#Resultados_OIE_2006</link>
+			</entry>
+			
+			<entry date="2006" labels="algorithmics,c">
+				<image>silver-medal.gif</image>
+				<image_set>ciic</image_set>
+				<summary lang="es">Medalla de plata en la olimpiada informática iberoamericana por correspondencia (CIIC).</summary>
+				<summary lang="en">Silver medal in "informática iberoamericana por correspondencia" (CIIC).</summary>
+				<logo>ciic.gif</logo>
+				<link>http://www.oia.org.ar/ciic/</link>
+				<link>http://es.wikipedia.org/wiki/Olimpiada_Inform%C3%A1tica_Espa%C3%B1ola#Resultados_OIE_2006</link>
+			</entry>
+			
+			<entry date="2006" labels="algorithmics,linux,c,english">
+				<image>bronze-medal.gif</image>
+				<image_set>ioi</image_set>
+				<summary lang="es">Medalla de bronce en la olimpiada informática internacional (IOI).</summary>
+				<summary lang="en">Bronze medal in "International Olympiad in Informatics" (IOI).</summary>
+				<logo>ioi.jpg</logo>
+				<link>http://www.ioinformatics.org/locations/ioi06/results.shtml</link>
+				<link>http://es.wikipedia.org/wiki/Olimpiada_Inform%C3%A1tica_Espa%C3%B1ola#Resultados_OIE_2006</link>
+			</entry>
+			
+			<entry date="2000" labels="algorithmics,math">
+				<image_set>olympiad_math</image_set>
+				<summary lang="es">Clasificación para la fase provincial de la XI Olimpiada Matemática</summary>
+				<summary lang="en">Clasified for the provincial phase of the XI Mathematic Olympiad</summary>
+			</entry>
+		</category>
+		
+		<category type="lectures">
+			<entry date="2012" labels="english,translation">
+				<summary lang="es">Ponencia sobre tradcloud en la UAB.</summary>
+				<summary lang="en">Tradcloud presentation at UAB.</summary>
+			</entry>
+			<entry date="2009" labels="php,glsl">
+				<summary lang="es">Charla sobre shaders en softonic. Hablando sobre shaders de PixelBender y shaders en general. Usado mi proyecto phpmedia para la demostración.</summary>
+				<summary lang="en">Shaders presentation at softonic. Explained PixelBender shaders and shaders in general. Used my phpmedia project for the exposition.</summary>
+				<link>http://blog.cballesterosvelasco.es/2011/01/charla-sobre-shaders.html</link>
+			</entry>
+		</category>
+		
+		<category type="demo">
+			<entry date="2007" labels="c,opengl,games">
+				<title lang="en">Tetris-3D</title>
+				<summary lang="es">
+					<p>Hice un tetris en 3D para la carrera.</p>
+				</summary>
+				<youtube>Vn1Ha7H3Mrg</youtube>
+				<link>http://www.youtube.com/watch?v=Vn1Ha7H3Mrg</link>
+			</entry>
+			<entry date="2007" labels="c,games">
+				<title lang="en">Open-Puyo</title>
+				<summary lang="es">
+					<p></p>
+				</summary>
+				<youtube>FYvDh78iEz8</youtube>
+			</entry>
+			<entry date="2009" labels="php,glsl">
+				<title lang="en">Charla de shaders</title>
+				<summary lang="es">
+					<p></p>
+				</summary>
+				<youtube>LJyqA_DGuHg</youtube>
+			</entry>
+			<entry date="2011" labels="as3">
+				<title lang="en">Fuegos artificiales</title>
+				<summary lang="es">
+					<p></p>
+				</summary>
+				<link>http://soywiz.github.io/mine/swf/spike_foc_low_fixed2.swf</link>
+			</entry>
+			<entry date="2010" labels="d,as3,games">
+				<title lang="en">Sample mmorpg</title>
+				<summary lang="es">
+					<p></p>
+				</summary>
+				<youtube>RyDr4DSz9jc</youtube>
+			</entry>
+		</category>
+		
+		<category type="project">
+			<entry date="2007-2014" starred="1" labels="c,d,c#,assembly,emulation,dynarec,opengl,glsl,git,tdd,ast,compression,imaging,audio,video,containers,muxing,binary,sockets,linux">
+				<title lang="en">CSPSPEMU</title>
+				<logo>cspspemu.png</logo>
+				<image_set>cspspemu</image_set>
+				<summary lang="es">
+					<p>Emulador de PSP en C# (originalmente en D).</p>
+					<p>Este es el proyecto más largo que he hecho en toda mi vida. (Y aún lo sigo a temporadas.)</p>
+					<p>Es un proyecto inmenso de más de 100.000 líneas de código que he ido desarrollando durante años.</p>
+					<p>
+						Tiene montones y montones de partes y toca la mayor parte de las cosas que me gustan de la programación:
+						emulación, bajo, medio y alto nivel, compiladores y recompilación dinámica, gráficos, audio, sistemas operativos,
+						interfaces gráficas, C#...
+					</p>
+					<p>
+						Actualmente la calidad de la recompilación dinámica de la CPU que he logrado es la mejor de todos los emuladores
+						de PSP que hay hasta la fecha. Aunque mi emulador no es el más compatible todavía, es capaz de ejecutar un 
+						montón de juegos homebrew y algunos juegos comerciales.
+					</p>
+				</summary>
+				<link>https://github.com/soywiz/cspspemu</link>
+				<link>http://pspemu.soywiz.com/</link>
+				<link>https://www.ohloh.net/p/cspspemu</link>
+			</entry>
+
+			<entry date="2010-2012" starred="1" labels="c,assembly,emulation,tdd">
+				<title lang="en">PSPAUTOTESTS</title>
+				<summary lang="es">
+					<p>Creé un proyecto para hacer tests de integración portables para todos los emuladores de PSP.</p>
+					<p>Originalmente lo creé para mi emulador cspspemu, posteriormente lo porteé a jpcsp y al final el proyecto ppsspp lo adoptó y lo hizo crecer enormemente.</p>
+				</summary>
+				<link>https://github.com/hrydgard/pspautotests</link>
+				<link>http://code.google.com/p/pspautotests/</link>
+			</entry>
+
+			<entry date="2012" starred="1" labels="c,c#,compilers,git,tdd,ast">
+				<title lang="en">ILCC</title>
+				<summary lang="es">
+					<p>Compilador de C hecho en C# para .NET (genera código IL; ejecutables y dlls).</p>
+					<p>El código generado es completamente portable y se puede ejecutar el binario sin modificaciones en cualquier plataforma soportada por MS.NET o MONO.</p>
+					<p>Incluye el preprocesador de C y la mayor parte de la sintaxis de C.</p>
+					<p>Es capaz de compilar muchos programas sencillos aunque algunos programas más complicados todavía no es capaz de compilarlos.</p>
+					<p>El objetivo del proyecto era compilar ffmpeg en código .NET para poderlo usar en mi emulador de PSP.</p>
+					<p>Aunque está sin terminar está en un estadio bastante avanzado.</p>
+					<p>Permite dumpear el AST del código C como XML de forma que otros lenguajes lo pueden convertir a otras cosas o generar documentación.</p>
+				</summary>
+				<link>https://github.com/soywiz/ilcc</link>
+			</entry>
+
+			<entry date="2011" starred="1" labels="c#,algorithmics,sockets,git,tdd">
+				<title lang="en">SMRR-SERVER</title>
+				<summary lang="es">
+					<p>Simple Massive Realtime Ranking Server</p>
+					<p>Creé este proyecto para our.com.</p>
+					<p>Es un servidor de rankings muy sencillo: usuarios asociados a una puntuación y a un instante en el que se consigue dicha puntuación.</p>
+					<p>Permite insertar puntuaciones en tiempo logarítmico, listar puntuaciones en tiempo lineal y obtener la posición de un usuario en tiempo logarítmico.</p>
+					<p>El problema era que la única forma que teníamos de trabajar con millones de puntuaciones y tener operaciones con tiempos razonables era precalcular diariamente todos los datos. Con lo que no escalaba bien y no era en tiempo real.</p>
+					<p>Diseñé un algoritmo basado en árboles RedBlack que añadía stats a los nodos de forma que mantenía la inserción logarítmica y permitía localizar en un tiempo logarítmico un nodo por posición.</p>
+				</summary>
+				<link>https://github.com/soywiz/smrr-server</link>
+				<link>http://blog.cballesterosvelasco.es/2011/06/rankings-masivos-en-tiempo-real-y.html</link>
+			</entry>
+
+			<entry date="2012" starred="1" labels="javascript,typescript,node.js,tdd,compilers,dynarec,ast">
+				<title lang="en">ATPL</title>
+				<summary lang="es">
+					<p>Advanced TemPLates (Node.JS).</p>
+					<p>El proyecto este lo empecé en javascript cuando empecé a tocar node.js y quería tener un sistema de templates idéntico o muy similar al Twig de PHP que había estado usando hasta ahora.</p>
+					<p>Entonces me di cuenta de que habían otros proyectos que ya pretendían lo mismo "swig" o "twig.js".</p>
+					<p>Tras darles casi un año de oportunidades a ambos proyectos y ver que no habían implementado las partes más potentes de twig o que uno de ellos ni siquiera hacía recompilación dinámica, decidí seguir el proyecto.</p>
+					<p>Porté el proyecto a typescript, y seguí haciendo TDD y añadiendo testcases interesantes de la parte potente de twig.</p>
+					<p>Hace uso de prototyping de javascript para implementar ámbitos muy rápidos y permitir una herencia flexible y potente</p>
+					<p>
+						Tiene recompilación dinámica (convierte el template a código javascript que a su vez el V8 convierte en código nativo).</p>
+						<p>Ahora mismo ATPL implementa la mayor parte de Twig y está usándose en algún proyecto en producción.</p>
+				</summary>
+				<link>https://github.com/soywiz/atpl.js</link>
+			</entry>
+
+			<entry date="2012" starred="1" labels="haxe,c,imaging">
+				<title lang="en">haxe-nme-webp</title>
+				<summary lang="es">
+					<p>Proyecto para cargar imágenes en el formato webp usando haxe-nme.</p>
+					<p>Webp soporta compresión lossy y lossless y canal alpha en ambos casos, además de una mejor compresión frente a jpeg y png, así que es un buen sustituto como formato de imagen para juegos, especialmente para móviles donde es interesante que las imágenes ocupen poco.</p>
+					<p>Webp está basado en Webm.</p>
+				</summary>
+				<link>https://github.com/soywiz/haxe-nme-webp</link>
+			</entry>
+
+			<entry date="2012" starred="1" labels="haxe,c,muxing,video,audio,imaging,containers">
+				<title lang="en">haxe-nme-webm</title>
+				<image_set>haxe-nme-webm</image_set>
+				<summary lang="es">
+					<p>Proyecto para reproducir vídeos en webm en haxe-nme.</p>
+					<p>Webm es un contenedor basado en ogg/riff, que tiene como códec de vídeo VP8 y como códec de audio Vorbis.</p>
+				</summary>
+				<link>https://github.com/soywiz/haxe-nme-webm</link>
+			</entry>
+
+			<entry date="2012" starred="1" labels="haxe,c,muxing,audio,containers">
+				<title lang="en">haxe-nme-opus</title>
+				<summary lang="es">
+					<p>Proyecto para reproducir audio en formato opus en haxe-nme.</p>
+					<p>Opus es un formato de audio que permite encodear bien tanto voz como música. Así que es ideal como códec de audio para juegos para móviles que estén completamente doblados ya que con un bitrate bajo se consigue una calidad de voz muy buena.</p>
+					<p>Opus está basado en el contenedor.</p>
+				</summary>
+				<link>https://github.com/soywiz/haxe-nme-opus</link>
+			</entry>
+
+			<entry date="2011" starred="1" labels="as3,algorithmics">
+				<title lang="en">poly2tri (as3)</title>
+				<image_set>poly2tri</image_set>
+				<summary lang="es">
+					<p>Colaboré en el proyecto poly2tri porteando el código a ActionScript3.</p>
+					<p>Hice una pequeña demo combinando la triangulación de la librería porteada, con una búsqueda de caminos triangulated-a-star y el algoritmo del embudo que implementé para la demo, para encontrar el camino directo más corto entre dos puntos en el mesh de triángulos generado.</p>
+					<p><a href="http://soywiz.github.io/mine/swf/VisualTest.swf" target="_blank">Ver demo</a></p>
+				</summary>
+				<link>https://code.google.com/p/poly2tri/source/browse/?repo=as3</link>
+				<link>http://soywiz.github.io/mine/swf/VisualTest.swf</link>
+			</entry>
+
+			<entry date="2007" labels="d,assembly,emulation,opengl">
+				<title lang="en">Emulador de gameboy</title>
+				<summary lang="es">
+					<p>Hice una prueba de concepto de emulador de gameboy en D. Esta versión era interpretada y fue la primera aproximación a la emulación de consolas reales antes de mi emulador de PSP.</p>
+				</summary>
+				<youtube>PVJrpKAc2Bw</youtube>
+			</entry>
+
+			<entry date="* - *" labels="">
+				<title lang="en">Otros</title>
+				<summary lang="es">
+					<p>A lo largo de mi vida he creado y participado en decenas de proyectos opensource. Puedes ver la mayor parte de ellos en github, google code y sourceforge.</p>
+				</summary>
+				<link>https://github.com/soywiz</link>
+				<link>https://code.google.com/u/soywiz/</link>
+				<link>http://sourceforge.net/u/soywiz/profile/</link>
+				<link>http://www.youtube.com/user/cballesterosvelasco</link>
+				<link>https://www.ohloh.net/accounts/soywiz</link>
+			</entry>
+		</category>
+		
+		<category type="language">
+			<entry labels="spanish">
+				<title lang="es">Español (Spanish)</title>
+				<title lang="en">Spanish</title>
+				<title lang="ja">スペイン語</title>
+				<summary lang="es">Nací en España y soy nativo.</summary>
+				<level>native</level>
+			</entry>
+
+			<entry labels="valenciano">
+				<title lang="es">Valenciano/Catalán</title>
+				<summary lang="es">Nací Valencia y aunque no suelo hablar valenciano, lo entiendo perfectamente.</summary>
+				<level>medium</level>
+			</entry>
+
+			<entry labels="english">
+				<title lang="es">Inglés (English)</title>
+				<title lang="en">English</title>
+				<summary lang="es">Estudié inglés hasta la universidad y leo contínuamente artículos en inglés. Mi comprensión es bastante buena, pero me cuesta entablar conversación.</summary>
+				<level>medium</level>
+			</entry>
+
+			<entry labels="japanese">
+				<title lang="es">Japonés (日本語)</title>
+				<title lang="en">Japanese</title>
+				<summary lang="es">He estudiado en un par de ocasiones un curso elemental de japonés. Estuve un par de veces en japón. A finales de 2012 he estado recibiendo clases particulares de japonés.</summary>
+				<level>elemental</level>
+			</entry>
+		</category>
+		<category type="opensource">
+			<entry labels="opensource">
+				<summary lang="es">
+					<p>Ohloh</p>
+					<p>
+						<a href='https://www.ohloh.net/accounts/71283?ref=Detailed' target='_top'>
+							<img alt='Ohloh profile for Carlos Ballesteros Velasco' border='0' height='35' src='https://www.ohloh.net/accounts/71283/widgets/account_detailed.gif' width='191' />
+						</a>
+					</p>
+				</summary>
+				<logo>ohloh.png</logo>
+				<link>https://www.ohloh.net/accounts/soywiz</link>
+			</entry>
+
+			<entry labels="git,opensource">
+				<summary lang="es">Github</summary>
+				<logo>github.png</logo>
+				<link>https://github.com/soywiz</link>
+			</entry>
+			
+			<entry labels="svn,opensource">
+				<summary lang="es">Googlecode</summary>
+				<logo>googlecode.png</logo>
+				<link>http://code.google.com/u/soywiz/</link>
+			</entry>
+
+			<entry labels="svn,cvs,opensource">
+				<summary lang="es">Sourceforge</summary>
+				<logo>sourceforge.png</logo>
+				<link>http://sourceforge.net/users/soywiz</link>
+				<link>http://sourceforge.net/users/phpwiz2</link>
+			</entry>
+		</category>
+		<category type="certification">
+			<entry date="2010/Summer" labels="japanese">
+				<summary lang="es">Curso de 40 horas de japonés de nivel 1 (organizado por el instituto confucio)</summary>
+			</entry>
+			
+			<entry date="2009/05" labels="mysql,english">
+				<image_set>mysql</image_set>
+				<summary lang="es">
+					<div>Certificación de MySQL Developer. Carlos Ballesteros Velasco.</div>
+					<div>www.mysql.com/certification/candidates.php?exam=3#Spain</div>
+					<div>Candidate ID: 12706</div>
+					<div>Certificate ID: 230151145</div>
+					<div>Can be validated on: www.mysql.com/certification</div>
+				</summary>
+				<logo>mysql.png</logo>
+				<link>http://www.mysql.com/certification/candidates.php?exam=3#Spain</link>
+			</entry>
+			
+			<entry date="2007/03 - 2007/04" labels="c,games">
+				<summary lang="es">Cursillo «Foundations of digital Games» impartido por impartido por Tomi A. Pasanen.</summary>
+				<link>http://www.upv.es/contenidos/GIG/asignaturas/vj-tp/index.html</link>
+				<link>http://www.cs.helsinki.fi/u/tapasane/</link>
+			</entry>
+
+			<entry date="2006">
+				<summary lang="es">Título de bachillerato.</summary>
+			</entry>
+
+			<entry date="2005/08" labels="php,english">
+				<summary lang="es">Ingeniero certificado Zend (De los 1,000 primeros).</summary>
+				<image_set>zend</image_set>
+				<logo>zend.gif</logo>
+				<link><![CDATA[http://zend.com/zce.php?c=ZEND002412&r=212545372]]></link>
+			</entry>
+
+			<entry date="2002">
+				<summary lang="es">Graduado escolar.</summary>
+			</entry>
+		</category>
+		<category type="academic">
+			<entry date="2010/Summer" labels="japanese">
+				<summary lang="es">Curso de 40 horas de japonés de nivel 1 (organizado por el instituto confucio).</summary>
+				<logo>confucio.png</logo>
+				<link>http://www.uv.es/confucio/</link>
+			</entry>
+
+			<entry date="2009" labels="english">
+				<summary lang="es">Curso de 43 horas de inglés pre-intermediate impartido por Training Express SL.</summary>
+				<logo>training_express.jpg</logo>
+			</entry>
+
+			<entry date="2008" labels="japanese">
+				<summary lang="es">Curso de 40 horas de japonés de nivel 1 (organizado por el instituto confucio).</summary>
+				<logo>confucio.png</logo>
+				<link>http://www.uv.es/confucio/</link>
+			</entry>
+			
+			<entry date="2007/03 - 2007/04" labels="games">
+				<summary lang="es">Cursillo «Foundations of digital Games» impartido por impartido por Tomi A. Pasanen.</summary>
+				<link>http://www.upv.es/contenidos/GIG/asignaturas/vj-tp/index.html</link>
+				<link>http://www.cs.helsinki.fi/u/tapasane/</link>
+			</entry>
+
+			<entry date="2002 - 2006">
+				<summary lang="es">Bachillerato Científico-técnico cursado en I.E.S. Misericordia 26 (Valencia).</summary>
+			</entry>
+			
+			<entry date="* - 2001">
+				<summary lang="es">Educación primera, secundaria y elemental: Rodriguez Fornos &amp; Escolapias (Valencia).</summary>
+			</entry>
+			
+			<entry date="* - *">
+				<summary lang="es">Programador autodidacta usando libros e Internet.</summary>
+			</entry>
+		</category>
+		<category type="programming-languages">
+			<entry date="2001 - 2012" labels="php,c,web">
+				<title lang="es">PHP</title>
+				<level>expert</level>
+				<summary lang="es">
+					<div>Amplios conocimientos de programación en PHP para web, consola y aplicaciones cliente.</div>
+					<div>Conocimientos sobre Zend Engine.</div>
+					<div>Desarrolladas diversas extensiones para PHP.</div>
+					<div>Experiencia dando clases de PHP.</div>
+					<div>Experiencia tanto con PHP 4 como con PHP5.</div>
+					<div>Título de ingeniero certificado Zend.</div>
+					<div>Última versión de php usada: 5.4.</div>
+					<div>Blog phpElegante, técnicas y consejos avanzados de programación en PHP.</div>
+				</summary>
+				<logo>php.png</logo>
+				<link><![CDATA[http://www.zend.com/store/education/certification/authenticate.php?ClientCandidateID=ZEND002412&RegistrationID=212545372]]></link>
+				<link>http://php.soywiz.com/</link>
+			</entry>
+			
+			<entry date="2001 - *" labels="javascript,web">
+				<title lang="es">JavaScript</title>
+				<level>advanced</level>
+				<summary lang="es">
+					<div>Conocimientos de JavaScript (y lenguajes basados en ECMAScript [ActionScript, TypeScript etc.]) aplicado a la Web.</div>
+					<div>Trabajado con el api prototype (en un par de ocasiones) y jQuery generalmente.</div>
+					<div>Creadas aplicaciones de servidor con node.js.</div>
+					<div>Librerías de NodeJS utilizadas: express, consolidate, twig/swig, underscore, mongodb, mocha, should y socket.io.</div>
+				</summary>
+				<logo>javascript.png</logo>
+				<link>http://prototypejs.org/</link>
+				<link>http://nodejs.org/</link>
+				<link>http://jquery.com/</link>
+			</entry>
+
+			<entry date="2012 - *" labels="typescript,web">
+				<title lang="es">TypeScript</title>
+				<level>advanced</level>
+				<summary lang="es">
+					<div>Conocimientos de TypeScript. Varios proyectos en desarrollo.</div>
+					<div>Creado repositorio de definiciones en github + creación de definiciones.</div>
+				</summary>
+				<logo>typescript.png</logo>
+				<link>http://www.typescriptlang.org/</link>
+				<link>https://github.com/soywiz/typescript-node-definitions</link>
+			</entry>
+
+			<entry labels="dart,web">
+				<title lang="es">Dart</title>
+				<level>elemental</level>
+				<summary lang="es">
+					<div>Realizadas varias pruebas de servidor con Dart.</div>
+					<div>Muy cómodo con la sintaxis y el api.</div>
+				</summary>
+				<logo>dart.png</logo>
+			</entry>
+
+			<entry date="2010 - *" labels="haxe,opensource,web">
+				<title lang="es">HaXe</title>
+				<level>medium</level>
+				<summary lang="es">
+					<div>Conocimientos medios de HaXe.</div>
+					<div>Creado port de juego usando NME.</div>
+					<div>Creadas diversas extensiones opensource para NME: webp, webm, opus.</div>
+				</summary>
+				<logo>haxe.png</logo>
+				<link>http://haxe.org/</link>
+				<link>http://www.haxenme.org/</link>
+				<link>http://jquery.com/</link>
+				<link>https://github.com/soywiz/haxe-nme-webm</link>
+				<link>https://github.com/soywiz/haxe-nme-webp</link>
+				<link>https://github.com/soywiz/haxe-nme-opus</link>
+			</entry>
+			
+			<entry date="2007 - *" labels="as3,flash,games,opensource,web">
+				<title lang="es">ActionScript 3</title>
+				<level>advanced</level>
+				<summary lang="es">
+					<div>Creadas aplicaciones en flash usando ActionScript.</div>
+					<div>Creado juego, animaciones y aplicaciones.</div>
+					<div>Creadas dos máquinas virtuales en flash y evaluadores de expresiones.</div>
+					<div>Usado Alchemy/FlashCC para integrar código C++ en flash.</div>
+					<div>Creación de ANEs. Creado lector de imágenes webp multiplataforma con ANEs y FlashCC.</div>
+					<div>Trabajado con facebook para crear juegos en our.com.</div>
+				</summary>
+				<logo>as3.png</logo>
+				<link>http://labs.adobe.com/technologies/alchemy/</link>
+				<link>http://blog.cballesterosvelasco.es/2011/02/poly2tri-y-busqueda-de-caminos.html</link>
+				<link>http://blog.cballesterosvelasco.es/2011/03/pruebecita-de-fuegos-artificiales-en.html</link>
+				<link>https://github.com/soywiz/as3libwebp</link>
+			</entry>
+			
+			<entry date="2001 - *" labels="html,web">
+				<title lang="es">HTML 5</title>
+				<level>medium</level>
+				<summary lang="es">
+					<div>Conocimientos de HTML 5 y CSS 3 trabajando conjuntamente con JavaScript 1.8.</div>
+					<div>Maquetación de decenas de webs desde 2001. Tanto personales, como profesionales para personas y empresas.</div>
+				</summary>
+				<logo>html5.png</logo>
+			</entry>
+			
+			<entry date="2006 - *" labels="java,c,php,games">
+				<title lang="es">Java</title>
+				<level>medium</level>
+				<summary lang="es">
+					<div>Conocimientos básicos de J2SE y J2ME. Desarrollado un par de juegos para móviles en J2ME y alguna demo.</div>
+					<div>Conocimiento sobre la arquitecturá orientada a objetos de java. Conocimiento de API básica.</div>
+					<div>Conocimientos elementales sobre la plataforma de desarrollo para móviles Android.</div>
+					<div>Integrado código C++ en java mediante JNI. Colaborado en el emulador de PSP Jpcsp.</div>
+					<div>Creada máquina virtual de java en php.</div>
+				</summary>
+				<logo>java.png</logo>
+				<link>http://www.oracle.com/technetwork/java/index.html</link>
+				<link>http://code.google.com/p/jpcsp/</link>
+				<link>https://github.com/soywiz/phpJavaVM</link>
+			</entry>
+
+			<entry date="2006 - *" labels="c#,games,emulation,tdd,romhacking,opensource,web,async">
+				<title lang="es">C#</title>
+				<level>advanced</level>
+				<summary lang="es">
+					<div>Conocimientos medio de la tecnología .NET y del lenguaje C# para PC, .NET Framework: PocketPC, dispositivos móviles y xbox 360 mediante XNA.</div>
+					<div>Creado proyecto opensource de utilidades en C#. CSharpUtils. Creado emulador de PSP en C# con recompilación dinámica sucesor del emulador en D.</div>
+					<div>Conocimientos hasta .NET 4.5 incluyendo la arquitectura async + await.</div>
+					<div>Desarrollado un prototipo tipo node.js para .net 4.5 (node.net)</div>
+				</summary>
+				<logo>csharp.png</logo>
+				<link>http://code.google.com/p/csharputils/</link>
+				<link>http://pspemu.soywiz.com/</link>
+				<link>https://github.com/soywiz/NodeNetAsync</link>
+			</entry>
+			
+			<entry labels="python,web">
+				<title lang="es">Python</title>
+				<level>basic</level>
+				<summary lang="es">
+					<div>Utilizado Python en un par de proyectos. Utilizado con google appengine y django.</div>
+				</summary>
+				<logo>python.png</logo>
+			</entry>
+			
+			<entry date="2006 - 2009" labels="d,games,emulation,romhacking,opensource">
+				<title lang="es">D</title>
+				<level>advanced</level>
+				<summary lang="es">
+					<div>Conocimientos medios y soltura programando en D1.0 y D2.0.</div>
+					<div>Desarrollado utilidades gráficas como PopGUI en DFL, multitud de utilidades (romhacking, gestión de sistema...), programas de consola.</div>
+					<div>Desarrollado emulador de gameboy, emulador de psp. Desarrollado plugin de cdvd para el emulador pcsx2. Librerías para D.</div>
+				</summary>
+				<logo>d.png</logo>
+				<link>http://foro.tales-tra.com/viewtopic.php?t=109</link>
+				<link>http://www.dprogramming.com/dfl.php</link>
+				<link>http://personales.alumno.upv.es/carbalve/emus/gb/</link>
+				<link>http://pspemu.soywiz.com/</link>
+				<link>http://svn.soywiz.com/d/pcsx2/cdvdfs/</link>
+				<link>http://code.google.com/p/dutils/</link>
+			</entry>
+			
+			<entry date="2000 - *" labels="c,c#,games,romhacking,opensource">
+				<title lang="es">C/C++</title>
+				<level>advanced</level>
+				<summary lang="es">
+					<div>Amplios conocimientos de programación en C/C++. Trabajado con IDEs: Dev-Cpp y en especial Microsoft Visual Studio 6, 7, 8 (2005), 9 (2008) hasta 2012.</div>
+					<div>Creado diversos proyectos para diversas plataformas. Scripts, programas... Usado con SDL y OpenGL para crear juegos y ports de engines.</div>
+					<div>Creado compilador de C en C#</div>
+				</summary>
+			</entry>
+			
+			<entry date="1994-*" labels="assembly,games,emulation,romhacking">
+				<title lang="es">Ensamblador</title>
+				<level>medium</level>
+				<summary lang="es">
+					<div>Conocimientos de la arquitectura 80386, funcionamiento e instrucciones básicas.</div>
+					<div>Conocimientos mínimos sobre otros procesadores como ARM y SH2. Conocimientos mas avanzados sobre Z80 y MIPS r4000.</div>
+					<div>Conocimiento sobre procesadores (mips): allegrex (PSP) y emotion engine (PS2)...</div>
+					<div>Conocimientos básicos sobre PPC (PowerPC) (procesador original de MAC, GameCube, Wii, PlayStation 3 y XBOX360).</div>
+					<div>Conocimiento de las máquinas virtuales C# (hecha recompilación dinámica MIPS -> .NET IL) y Java (hecho intérprete en php).</div>
+				</summary>
+				<link>https://github.com/soywiz/phpJavaVM</link>
+			</entry>
+		</category>
+		<category type="databases">
+			<entry date="2000-*" labels="mysql">
+				<title lang="es">MySQL (SQL)</title>
+				<level>advanced</level>
+				<summary lang="es">
+					<div>Conocimiento a nivel avanzado de la base de datos MySQL</div>
+					<div>y de aplicación usando PHP mediante extensiones mysql, mysqli y PDO.</div>
+					<div>Certificación de MySQL.</div>
+				</summary>
+				<link>http://www.mysql.com/</link>
+				<link>http://www.mysql.com/certification/candidates.php?exam=3#Spain</link>
+			</entry>
+
+			<entry date="2008-*" labels="sqlite">
+				<title lang="es">SqLite (SQL)</title>
+				<level>medium</level>
+				<summary lang="es">
+					<div>Conocimiento a nivel medio de la base de datos SqLite y de aplicación usando PHP y C#.</div>
+				</summary>
+				<link>http://www.sqlite.org/</link>
+			</entry>
+
+			<entry date="2010-*" labels="mongodb">
+				<title lang="es">MongoDB (NoSQL)</title>
+				<level>medium</level>
+				<summary lang="es">
+					<div>Conocimiento a nivel medio de MongoDB. Creadas varias páginas usando MongoDB sin autosharding.</div>
+				</summary>
+				<link>http://www.mongodb.org/</link>
+			</entry>
+			
+			<entry date="2008" labels="sphinx">
+				<title lang="es">Sphinx (NoSQL/SQL)</title>
+				<level>elemental</level>
+				<summary lang="es">
+					<div>Conocimiento elemental sobre Sphinx para búsquedas en documentos.</div>
+				</summary>
+				<link>http://sphinxsearch.com/</link>
+			</entry>
+		</category>
+		<category type="office">
+			<entry date="2008-2010" labels="">
+				<title lang="es">Open Office</title>
+				<level>basic</level>
+				<summary lang="es">
+					<div>Conocimiento a nivel de usuario.</div>
+				</summary>
+			</entry>
+			
+			<entry date="2002-*" labels="">
+				<title lang="es">Microsoft Office</title>
+				<level>medium</level>
+				<summary lang="es">
+					<div>Conocimiento a nivel de usuario de Word, Excel, Access y Powerpoint.</div>
+				</summary>
+			</entry>
+			
+			<entry date="2006-*" labels="">
+				<title lang="es">Google Office</title>
+				<level>medium</level>
+				<summary lang="es">
+					<div>Conocimiento básico sobre Google Docs y Hojas de Cálculo.</div>
+				</summary>
+			</entry>
+
+			<entry date="2006-*" labels="">
+				<title lang="es">Apple</title>
+				<level>medium</level>
+				<summary lang="es">
+					<div>Conocimiento básico sobre Pages, Numbers y KeyNode de Apple.</div>
+				</summary>
+			</entry>
+		</category>
+		<category type="fields">
+			<entry labels="c#,php,c,d,sockets">
+				<title lang="es">Aplicaciones Cliente/Servidor</title>
+				<level>advanced</level>
+				<summary lang="es">
+					<div>Experiencia creando aplicaciones cliente/servidor.</div>
+					<div>Bots, clientes y servidores para diversos protocolos.</div>
+					<div>Experiencia en diversos lenguajes de programación: C#, PHP, C/C++ y D.</div>
+				</summary>
+			</entry>
+			
+			<entry labels="c#,php,c,d,python">
+				<title lang="es">Scripts de consola</title>
+				<level>advanced</level>
+				<summary lang="es">
+					<div>
+					Experiencia creando programas de consola para automatizar tareas:
+					backups, spiders, búsqueda, renombrado de ficheros...
+					</div>
+				</summary>
+			</entry>
+			
+			<entry labels="assembly,c,php,div,c#,java,javascript,html,as3,glsl,xna,squirrel,opengl,git,svn,games,algorithmics,flash,photoshop,opensource">
+				<title lang="es">Videojuegos</title>
+				<level>advanced</level>
+				<summary lang="es">
+					<p>
+					Programación de videojuegos en 2D para ordenador (C/C++, PHP, DIV(Fenix,CDIV,DIV1/2,Lunea));
+					dispositivos móviles: Pocket PC (.NET) y Móviles con J2ME; consolas: GBA, Nintendo DS y PSP;
+					juegos via web (Javascript+DHTML, FLASH+ActionScript). Juegos online (servidor+cliente).
+					Uso de shaders opengl (fragment y vertex shaders). Conocimiento del pipeline de opengl.
+					Conocimientos de SDL y Allegro. Gráficos 3D.
+					</p>
+					<p>
+					Ejemplos: Tetris en 3D con opengl, GameLib, Lunea, phpmedia, emulador de gameboy, emulador de psp, juegos via web.
+					Conocimientos elementales del API de Havok, Ogre3D y similares. Trabajado con C# para XNA (PC y XBOX360).
+					Creado engine para iPhone usando Squirrel y OpenGL|ES. Trabajado en The Netwizzy Company desarrollando plataforma
+					de juegos en ActionScript 3.
+					</p>
+					<p>
+					Trabajado con texturas en formato comprimido DXT1, DXT3, DXT5 y variantes. Creado decompresor. Trabajado con texturas
+					swizzleadas en formado de la máquina: (PSP, Xbox360 y Sega Saturn). Pathfinding A* en matrices bidimensionales y
+					pathfinding TA* sobre superficies trianguladas junto al algoritmo del embudo para encontrar camino directo.
+					</p>
+				</summary>
+				<link>http://squirrel-lang.org/</link>
+				<link>http://www.khronos.org/opengles/</link>
+				<link>http://code.google.com/p/dutils/source/browse/trunk/si/dxt.d</link>
+				<link>http://blog.cballesterosvelasco.es/2011/02/poly2tri-y-busqueda-de-caminos.html</link>
+			</entry>
+			
+			<entry labels="assembly,c,c#,d,romhacking">
+				<title lang="es">Romhacking</title>
+				<level>advanced</level>
+				<summary lang="es">
+					<p>
+					Romhacking de juegos. Arquitecturas: GB/GBA DS y SNES; PSX, PS2 y PSP; GB, GBA, NDS. Conocimientos de MIPS y Z80.
+					Traducción de juegos con textos comprimidos y sin comprimir. Modificación de punteros para textos mas largos;
+					edición gráfica de fuentes y otros gráficos. Traducción del Tales of Eternia (PSX + PSP), Tales of Destiny (PSX),
+					Tales of the Abyss (PS2), Suzumiya Haruhi no Yakusoku (PSP), Tales of Vesperia (360). Otros juegos.
+					</p>
+					<p>
+					Porting de videojuegos Reprogramado juego de PC mediante ingieniería inversa (romhacking) y reprogramado usando SDL,
+					SDL_mixer, SDL_image, SDL_ttf y smpeg. Portado a PC, Linux, Mac, PSP, y DreamCast. Tratado problema de lecturar en
+					dispositivos ópticos, problemas con memoria limitada y de optimización de rendimiento. Implementado ringbuffer como
+					filter stream para SDL_RWops.
+					</p>
+				</summary>
+			</entry>
+			
+			<entry labels="">
+				<title lang="es">Edición de video</title>
+				<level>medium</level>
+				<summary lang="es">
+					<p>
+					Edición de un videos. Poner subtítulos, quitar subtítulos. Añadir títulos. Karaokes. Encodear. Muxear. Demuxear.
+					Conceptos sobre: streams, filtros, layers, wrappers, codecs, containers...
+					</p>
+				</summary>
+			</entry>
+			
+			<entry labels="d,c#,html">
+				<title lang="es">Creación de GUIs (Graphical User Interfaces)</title>
+				<level>advanced</level>
+				<summary lang="es">
+					<p>
+					Creación de aplicaciones gráficas de entorno de usuario. Hechas con VB, C#, DELPHI y D+DFL.
+					Trabajado con componente scintilla (www.scintilla.org/).
+					</p>
+				</summary>
+			</entry>
+			
+			<entry labels="d,c#,emulation,compilers,dynarec">
+				<title lang="es">Emulación</title>
+				<level>expert</level>
+				<summary lang="es">
+					<p>
+					Extensa experiencia en depuración y trazado a nivel de ensamblador en emuladores.
+					Aplicados conceptos de recompilación dinámica aplicada a la emulación.
+					Creado emulador de PSP en modo intérprete (en D) y posteriormente reprogramado
+					para usar recompilación dinámica (en C#). Emulación parcial HLE. Prototipos de emulación LLE.
+					Soporte parcial Allegrex (mayor parte cpu y fpu, gran parte de la vfpu).
+					Capaz de ejecutar homebrews y juegos comerciales. Desensamblador. Visor de memória. Registros. Trazado. Depuración.
+					Conocimiento avanzado sobre la arquitectura psp.
+					Creado emulador de gameboy.
+					</p>
+				</summary>
+				<link>http://pspemu.soywiz.com/</link>
+			</entry>
+			
+			<entry labels="html,css,php,mysql,mongodb,sqlite,xml,web">
+				<title lang="es">Programación Web (con PHP)</title>
+				<level>advanced</level>
+				<summary lang="es">
+					<div>
+						Gran experiencia de programación Web. Uso de estándares HTML5+CSS3, XML, JS y (PHP + MYSQL + MongoDB).
+					</div>
+					<div>Algunos temas tratados:</div>
+					<ul>
+						<li>PDO; PHP >= 5.4</li>
+						<li>Creación de sistemas de caché a varios niveles</li>
+						<li>Creación de imágenes dinámicas usando PHP y GD2. Imagemagick.</li>
+						<li>Uso de MySQL y SQLite como soporte de bases de dato. Usados tanto con su api específica como con PDO.</li>
+						<li>Experiencia con expresiones regulares POSIX y PREG</li>
+						<li>Parseo y creación de XMLs</li>
+						<li>Creación de Spiders y crawlers</li>
+						<li>Creación de sistemas internos potentes y eficientes</li>
+						<li>Creación dinámica de animaciónes flash con la extensión ming</li>
+						<li>Colaboración en proyectos opensource a través de CVS, SVN y GIT.</li>
+						<li>Creación de aplicaciones Web interactivas con JavaScript: creación y manipulación dinámica de elementos, AJAX, JSON...</li>
+						<li>Creación de extensiones en PHP4/5 mediante Zend Engine 2. Creación de wrappers C para PHP</li>
+						<li>Conocimientos sobre el protocolo fast-cgi y creación de aplicaciones en C nativas</li>
+						<li>Experiencia utilizando firebug, wireshark y logs de apache para el desarrollo y depuración web.</li>
+						<li>Configuración y administración del servidor web apache y nginx.</li>
+						<li>Experiencia con algunos mods de apache como mod_rewrite</li>
+						<li>Trabajado con sphynx para búsquedas.</li>
+						<li>Comercio electrónico</li>
+						<li>Implementación de pasarelas de pago SMS e integración con paypal.</li>
+						<li>[...]</li>
+					</ul>
+				</summary>
+			</entry>
+			
+			<entry labels="photoshop,flash,freehand,illustrator,drawing,glsl,javascript">
+				<title lang="es">Creación y edición de imágenes</title>
+				<image_set>coloring</image_set>
+				<summary lang="es">
+					<p>
+					Creación de dibujo a mano, con tableta, TabletPC.
+					Contorneado de imágenes mediante freehand, flash, photoshop y ilustrator.
+					Coloreado de imágenes con flash y photoshop. Creación digital de imágenes.
+					Retoque fotográfico.
+					</p>
+				</summary>
+			</entry>
+
+			<entry labels="drawing">
+				<title lang="es">Dibujo</title>
+				<image_set>drawing</image_set>
+				<summary lang="es">
+					<p>
+						En ocasiones, como hobby suelo copiar algunos dibujos y hacer los míos propios.
+					</p>
+				</summary>
+			</entry>
+
+			<entry labels="graphviz">
+				<title lang="es">Graphviz</title>
+				<image_set>graphviz</image_set>
+				<summary lang="es">
+					<p>
+						He utilizado en varias ocasiones el programa graphviz para renderizar grafos.
+					</p>
+				</summary>
+			</entry>
+
+			<entry labels="linux">
+				<title lang="es">Administración de sistemas Linux aplicado a la web</title>
+				<level>medium</level>
+				<summary lang="es">
+					<p>
+					Conocimiento sobre comandos linux. Conocimientos básicos de bash.
+					Instalación y configuración de apache, php, mysql, sqlite y otros en sistemas linux,
+					compatibles Debian y Fedora Core.
+					</p>
+				</summary>
+			</entry>
+			
+			<entry labels="async">
+				<title lang="es">Desarrollo Multithreading</title>
+				<level>medium</level>
+				<summary lang="es">
+					<p>
+					Creación de programas con varios threads; mutex, semáforos etc. balanceado de
+					trabajo de cada thread. Cada vez mas importante ya que cada vez hay mas procesadores;
+					ordenadores y consolas con varios procesadores y/o cores. Implementación de primitivas
+					de sincronización en el kernel para el emulador de psp. Trabajado con OpenCL y shaders.
+					</p>
+				</summary>
+			</entry>
+			
+			<entry labels="assembly">
+				<title lang="es">Escritura de código en ensamblador</title>
+				<level>medium</level>
+				<summary lang="es">
+					<p>
+					Capacidad de escribir código en ensamblador optimizado, partes críticas y hacer uso de instrucciones avanzadas
+					para diferentes plataformas (MIPS, ARM básico, Z80, PowerPC, 8086+).
+					Conocimiento sobre las tecnologías SIMD (Single Instruction Multiple Data) para aplicaciones multimedia
+					para PC: MMX, SSE, SSE2, 3DNOW (básico), VFPU de Allegrex y NEON de ARM.
+					</p>
+				</summary>
+			</entry>
+			
+			<entry labels="mobile,squirrel,c,c#,opengl,haxe,glsl,xna,games">
+				<title lang="es">Desarrollo de videojuegos para móvil</title>
+				<level>medium</level>
+				<summary lang="es">
+					<p>
+					Experiencia creando aplicaciones videojuegos para móviles usando j2me
+					MIDP 1.0/2.0 y CLDC 1.0/1.1. Conocimientos de .NET Compact Framework.
+					</p>
+					<p>
+					Desarollado port comercial de juego multiplataforma: iphone, android,
+					windows phone 7, xbox 360, pc, linux y mac. “Curse of the Rock Manor”
+					</p>
+					<p>Desarrollado engine y juego para iPhone (PushBox).</p>
+				</summary>
+				<link>http://iphone.wareseeker.com/pushbox.app/4350ac37bd</link>
+				<youtube>WQouHqyJEo0</youtube>
+			</entry>
+
+			<entry labels="compression,imaging,audio,video,containers,muxing,binary">
+				<title lang="es">Conocimientos variados</title>
+				<summary lang="es">
+					<p>
+					Trabajado con estándares ISO, UDF. Gran capacidad de trabajo con formatos
+					binarios en diversos lenguajes de programación.
+					</p>
+					<p>
+					Conocimiento y gran práctica sobre/con métodos de compresión (creación de
+					compresores y decompresores): Huffman, LZ, RLE y derivados. Conocimientos
+					de zlib y png.  Conocimientos de mejoras de compresión/filtros específicas
+					para imágenes. RLE/LZ por píxeles, separación por componentes. Implementación
+					de decodificador de png; filtros de png: Sub, Up, Average y Paeth. Sistemas
+					de encriptación de protocolo y de archivos para plataforma de juegos online.
+					</p>
+				</summary>
+			</entry>
+
+			<entry labels="translation,english,spanish">
+				<title lang="es">Traducción</title>
+				<summary lang="es">
+					<p>
+					Experiencia de traducción de videojuegos (inglés-&gt;español) extraoficialmente.
+					Experiencia utilizando diccionarios online. Urbandictionary, babylon y rikaichan...
+					</p>
+					<p>
+					Completadas varias traducciones no oficiales.
+					</p>
+				</summary>
+			</entry>
+			
+			<entry labels="translation,english,spanish,japanese">
+				<title lang="es">Localización de software</title>
+				<summary lang="es">
+					<p>
+					Experiencia con localización de software y páginas web.
+					Conversión y trabajo nativo en codificaciones UTF-8, ISO-8869-1,
+					Shift-JIS (japonés) y GB2312 (chino). Experiencia tratando con
+					textos en idiomas orientales como chino y japonés.
+					</p>
+				</summary>
+			</entry>
+			
+			<entry labels="c#,d,c,php,javascript,typescript,compilers,ast">
+				<title lang="es">Compiladores</title>
+				<summary lang="es">
+					<p>
+					Creado compilador y máquina virtual completamente funcionales
+					para lenguaje de scripting. Con estructuras de control básicas,
+					foreach, funciones, delegados, generadores y clases. Optimización de código.
+					</p>
+					<p>
+					Creado compiladores de C y PHP en C#.
+					</p>
+					<p>
+					Creados un par de sistemas de templates con herencia basados en Twig en C# y en JavaScript/TypeScript.
+					</p>
+				</summary>
+			</entry>
+		</category>
+	</entries>
+</info>
